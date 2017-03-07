@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:id="@+id/add_to_bookshelf_rl"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="313dip"
+        android:layout_height="176dp"
+        android:background="@drawable/boy_shape_round_gray"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            >
+
+            <TextView
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/boyi_kindly_remind"
+                android:textColor="#737373"
+                android:textSize="20sp" />
+            <ImageView 
+                android:id="@+id/guanbi"
+                android:layout_marginTop="6.7dp"
+                android:layout_marginRight="6.7dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/boy_guanbi"
+                android:layout_alignParentRight="true"
+                />
+            <View 
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/darker_gray"
+                />
+        </RelativeLayout>
+
+        <TextView
+                android:id="@+id/text_msg"
+                android:layout_marginTop="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否将本书加入书架"
+                android:textColor="#868686"
+                android:textSize="16sp" />
+        <TextView
+                android:id="@+id/ask_leave"
+                android:layout_marginTop="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="这就走了吗？进书城逛逛吧！亲..."
+                android:textColor="#868686"
+                android:textSize="16sp" 
+                android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/rl_dialog_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/positive"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/btn_white_to_blue_selector"
+                android:text="好的" 
+                android:textSize="15dp"
+                android:textColor="#fdffff"/>
+            <Button
+                android:id="@+id/goagain"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:background="@drawable/btn_white_to_red_selector"
+                android:text="再逛逛" 
+                android:textSize="15dp"
+                android:textColor="#fdffff"/>
+
+            <Button
+                android:id="@+id/negative"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/btn_gray_selector"
+                android:textSize="15dp"
+                android:text="不了" />
+            <Button
+                android:id="@+id/reject"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/btn_gray_selector"
+                android:text="残忍拒绝" 
+                android:textSize="15dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cfd4d8"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/boyi_common_top_title"
+            layout="@layout/boyi_common_top_title" 
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" 
+            android:background="@android:color/white">
+            <ImageView 
+                android:layout_width="17dp"
+                android:layout_height="15dp"
+                android:src="@drawable/boyi_laba"
+                android:layout_marginLeft="16.7dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:text="@string/boyi_shelf_notify"
+                android:textColor="@android:color/black" /> -->
+
+            <com.boyiqove.view.MarqueeTextView
+                android:id="@+id/bookshelf_notify_tv"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dip"
+                android:layout_weight="1.0"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="12.7sp"/>
+           <!--  
+        <ImageView
+            android:id="@+id/bookshelf_more_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="18.0dip"
+            android:src="@drawable/ic_more" /> -->
+        </LinearLayout>
+
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+     <com.boyiqove.ui.storeutil.RefreshableView
+        android:id="@+id/refreshable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        
+        
+       <com.boyiqove.ui.storeutil.ShelfGridView
+            android:id="@+id/bookshelf_gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:columnWidth="35.0dip"
+            android:fadingEdge="none"
+            android:horizontalSpacing="12dp"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+            android:verticalSpacing="46dp" />
+   </com.boyiqove.ui.storeutil.RefreshableView>
+    <LinearLayout 
+        android:id="@+id/edit_ll"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:paddingLeft="16.7dp"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="16.7dp"
+        android:paddingBottom="14dp"
+        android:paddingTop="14dp"
+        android:background="#ECEBE9"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <Button 
+            android:id="@+id/selectAll"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="44dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/btn_white_to_blue_selector"
+            android:text="@string/select"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            />
+        <Button 
+            android:id="@+id/delete"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="44dp"
+            android:background="@drawable/btn_gray_selector"
+            android:text="@string/delete"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+    <!--批量删除-->
+
+        
+
+ 
+
+        <RelativeLayout
+            android:id="@+id/bookshelf_empty_layout"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="@dimen/rl_height" >
+
+            <TextView
+                android:id="@+id/bookshelf_empty_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="4.0dip"
+                android:textColor="@color/boyi_text_gray"
+                android:textSize="@dimen/textsize_normal" />
+
+            <Button
+                android:id="@+id/bookshelf_gostore_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bookshelf_empty_tv"
+                android:layout_centerHorizontal="true"
+                android:padding="@dimen/button_padding"
+                android:text="@string/boyi_goto_bookstore"
+                android:textColor="@color/boyi_white"
+                android:textSize="@dimen/textsize_normal" />
+
+            <ImageView
+                android:id="@+id/bookshelf_empty_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/bookshelf_empty_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/imageview_marginbottom"/>
+        </RelativeLayout>
+    </LinearLayout>
+   
+        
+    </LinearLayout>
+    
+   <LinearLayout
+        android:id="@+id/bookshelf_operator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/all_tv"
+            android:layout_width="0.0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boyi_btn_red_selector"
+            android:gravity="center"
+            android:padding="4.0dip"
+            android:text="全选"
+            android:textColor="@color/boyi_white"
+            android:textSize="@dimen/textsize_sbigger" />
+
+        <View
+            android:layout_width="0.5dip"
+            android:layout_height="40dip" />
+
+        <TextView
+            android:id="@+id/delete_tv"
+            android:layout_width="0.0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boyi_btn_red_selector"
+            android:gravity="center"
+            android:padding="4.0dip"
+            android:text="删除"
+            android:textColor="@color/boyi_white"
+            android:textSize="@dimen/textsize_sbigger" />
+
+        <View
+            android:layout_width="0.5dip"
+            android:layout_height="40dip" />
+
+        <TextView
+            android:id="@+id/cancel_tv"
+            android:layout_width="0.0dip"
+            android:layout_height="40dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boyi_btn_red_selector"
+            android:gravity="center"
+            android:padding="4.0dip"
+            android:text="取消"
+            android:textColor="@color/boyi_white"
+            android:textSize="@dimen/textsize_sbigger" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b0000000"
+        android:visibility="gone" >
+    </LinearLayout>
+
+</RelativeLayout>

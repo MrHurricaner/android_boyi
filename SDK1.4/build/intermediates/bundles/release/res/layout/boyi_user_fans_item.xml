@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8.0dip" >
+
+    <com.boyiqove.library.volley.toolbox.NetworkImageView
+        android:id="@+id/photo_niv"
+        android:layout_width="@dimen/shelf_cover_width"
+        android:layout_height="@dimen/shelf_cover_height"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginBottom="4.0dip" />
+
+    <TextView
+        android:id="@+id/attention_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5.0dip"
+        android:background="@drawable/boyi_ic_text_frame_gray_small"
+        android:padding="4.0dip"
+        android:singleLine="true"
+        android:text="允许关注"
+        android:textColor="@color/boyi_text_color_black_blue_selector"
+        android:textSize="@dimen/textsize_small" />
+
+    <TextView
+        android:id="@+id/nickname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_toLeftOf="@id/attention_tv"
+        android:layout_toRightOf="@id/photo_niv"
+        android:singleLine="true"
+        android:text="我吃西红柿"
+        android:textColor="@color/boyi_text_black"
+        android:textSize="@dimen/textsize_normal" />
+
+    <TextView
+        android:id="@+id/userid_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nickname_tv"
+        android:layout_marginLeft="8.0dip"
+        android:layout_toRightOf="@id/photo_niv"
+        android:singleLine="true"
+        android:text="5550"
+        android:textColor="@color/boyi_text_gray"
+        android:textSize="@dimen/textsize_small" />
+
+    <TextView
+        android:id="@+id/signature_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userid_tv"
+        android:layout_marginLeft="8.0dip"
+        android:layout_toRightOf="@id/photo_niv"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:textColor="@color/boyi_text_gray"
+        android:textSize="@dimen/textsize_small" />
+
+</RelativeLayout>
+
+

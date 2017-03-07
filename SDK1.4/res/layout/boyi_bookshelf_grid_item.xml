@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:background="@drawable/boyi_listview_selector"
+        android:id="@+id/cover_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_width="93.3dp"
+        android:layout_height="116.7dp" >
+ <!--  
+        <ImageView
+            android:layout_width="@dimen/shelf_cover_width_b"
+            android:layout_height="@dimen/shelf_cover_height_b"
+            android:background="@drawable/book_backgroud_shelf"
+            android:scaleType="fitXY"
+            android:contentDescription="书架小说边框" />
+        -->
+        <RelativeLayout 
+            android:id="@+id/rl_bg"
+            android:layout_width="@dimen/shelf_cover_width_b"
+            android:layout_height="@dimen/shelf_cover_height_b"
+            android:layout_centerInParent="true"
+            android:background="@drawable/boyi_addbook"       
+            android:gravity="center_vertical|center_horizontal">
+         
+      
+
+          <ImageView
+              android:id="@+id/cover_niv"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_centerInParent="true"
+              android:contentDescription="书架小说封面"
+              android:src="@drawable/boyi_addbook"
+              android:scaleType="fitXY" />
+          
+       <ImageView
+        android:id="@+id/status_iv"
+        android:layout_width="32dp"
+        android:layout_height="29dp"
+        android:layout_alignLeft="@id/rl_bg"
+        android:layout_alignTop="@id/rl_bg"
+        android:visibility="gone"
+         />
+        <ImageView
+        android:id="@+id/status_update"
+        android:layout_width="15dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/boyi_update_tubiao"
+        android:visibility="gone"
+        />
+     <ImageView
+        android:id="@+id/book_selected"
+        android:layout_width="13.3dp"
+        android:layout_height="13.3dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/boyi_chosed"
+        android:visibility="gone"
+        />
+        
+          
+            
+        </RelativeLayout>
+     
+        <ImageView
+            android:id="@+id/cover_shadow_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="#80000000"/>
+
+        <ImageView
+            android:id="@+id/cover_select_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+   
+
+    <TextView
+        android:id="@+id/bookname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cover_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:visibility="gone"
+        android:textColor="#ff515151" />
+
+
+</RelativeLayout>

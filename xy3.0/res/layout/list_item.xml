@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="@drawable/click_help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="23.3dp"
+        android:textSize="15.3dp"
+        android:textColor="#555555"
+        android:text="点击书架左上方的用户中心按钮，在滑出的页面中，点击提意见按钮，编辑您要对我们提出的建议或者提出在使用时遇到的问题发送给我们，我们的服务团队会在第一时间。"
+        />
+
+</RelativeLayout>

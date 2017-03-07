@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/grid_addbook"
+        android:layout_width="@dimen/shelf_cover_width_b"
+        android:layout_height="@dimen/shelf_cover_height_b"
+        android:src="@drawable/boyi_addbook" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/boyi_black_touming2"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" 
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip" >
+
+        <ImageView
+            android:id="@+id/boy_img_login"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2.6dip"
+            android:layout_marginTop="2.6dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/boy_jiazai" />
+
+        <TextView
+            android:id="@+id/by_dialog_text2"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.84"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:src="@drawable/boy_jiazai"
+            android:text="为了让您能看到更多更好的作品，系统将会向移动运营商发送一条免费短信进行快速登录，精彩内容在召唤。如有手机助手提示是否允许发送，请选择允许!"
+            android:textColor="@color/boyi_white"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/by_dialog_colse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/boy_guanbi" />
+
+    </LinearLayout>
+
+</LinearLayout>

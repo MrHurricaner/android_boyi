@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <include 
+        layout="@layout/boyi_detail_top_title"
+        />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:background="#F0F3F5">
+     </RelativeLayout>
+
+
+
+
+<LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="17.3dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        >
+        <ImageView 
+            android:layout_height="15dp"
+            android:scaleType="centerInside"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:background="@drawable/detail_left_orange"
+            />
+        <TextView 
+            android:id="@+id/detail_note1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/boyi_user_game"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:textColor="#333231"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+<View 
+    android:layout_height="1dp"
+    android:layout_width="match_parent"
+    android:background="#d7d7d7"
+    />
+<ListView 
+    android:id="@+id/user_game_listview"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="16.7dp"
+    android:layout_marginRight="16.7dp"
+    android:divider="#000000"
+    android:scrollbars="none"
+    ></ListView>
+
+</LinearLayout>

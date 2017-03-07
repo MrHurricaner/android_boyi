@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/boyi_black_touming2"
+    android:gravity="clip_horizontal|center_vertical"
+    >
+<LinearLayout    
+    android:layout_height="wrap_content"
+    android:layout_width="280dp"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/boyi_cricle_linearlayout"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+   <FrameLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"   
+        >  
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            >
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="52dip"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="阅读报错"
+        android:textColor="@color/boyi_textview_grad"
+        android:textSize="@dimen/textsize_normal" />
+		<View 
+		    android:layout_height="0.2dip" 
+		    android:layout_width="match_parent"
+		    android:background="@color/boyi_white"
+		    />
+		<View 
+		    android:layout_height="0.1dip" 
+		    android:layout_width="match_parent"
+		    android:background="@color/boyi_black"
+		    />
+	</LinearLayout>
+
+        <ImageView 
+            android:id="@+id/boy_error_backiv"
+            android:layout_height="21.67dip"
+            android:layout_width="21.67dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="6dip"
+            android:layout_marginRight="7dip"
+            android:src="@drawable/boy_guanbi"
+            />
+    </FrameLayout>
+    
+    </LinearLayout>
+    
+        <TextView
+            android:id="@+id/buy_info_couther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.67dip"
+        android:layout_marginLeft="14dip"
+        android:layout_marginRight="14dip"
+        android:text="您确定反馈吗？"
+        android:textColor="@color/boyi_text_grey"
+        android:textSize="12.67sp" />
+        <LinearLayout 
+            android:id="@+id/error_layout_bar1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20.67dip"
+            android:layout_marginTop="15.3dip"
+            >
+		<ImageView 
+		    android:id="@+id/error_layout_iv1"
+		    android:layout_height="18.67dip"
+		    android:layout_width="18.67dip"
+		    android:layout_gravity="center_vertical"
+		    android:background="@drawable/boy_posterror_no"
+		    />
+        <TextView 
+            android:id="@+id/error_chaos"           
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+        	android:layout_marginLeft="10.6dip"
+        	android:gravity="center_vertical"
+        	android:layout_gravity="center_vertical"
+            android:text="@string/boyi_readbook_fail1"
+            android:textColor="@color/boyi_text_grey"
+            android:textSize="12.67sp" 
+            />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/error_layout_bar2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20.67dip"
+            android:layout_marginTop="13.3dip"
+            >
+		<ImageView 
+		     android:id="@+id/error_layout_iv2"
+		    android:layout_height="18.67dip"
+		    android:layout_width="18.67dip"
+		    android:layout_gravity="center_vertical"
+		    android:background="@drawable/boy_posterror_no"
+		    />
+        <TextView 
+            android:id="@+id/error_chaos2"           
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+        	android:layout_marginLeft="10.6dip"
+        	android:gravity="center_vertical"
+        	android:layout_gravity="center_vertical"
+            android:text="@string/boyi_readbook_fail2"
+            android:textColor="@color/boyi_text_grey"
+            android:textSize="12.67sp" 
+            />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/error_layout_bar3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20.67dip"
+            android:layout_marginTop="13.3dip"
+            >
+		<ImageView 
+		     android:id="@+id/error_layout_iv3"
+		    android:layout_height="18.67dip"
+		    android:layout_width="18.67dip"
+		    android:layout_gravity="center_vertical"
+		    android:background="@drawable/boy_posterror_no"
+		    />
+        <TextView 
+            android:id="@+id/error_chaos3"           
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+        	android:layout_marginLeft="10.6dip"
+        	android:gravity="center_vertical"
+        	android:layout_gravity="center_vertical"
+            android:text="@string/boyi_readbook_fail3"
+            android:textColor="@color/boyi_text_grey"
+            android:textSize="12.67sp" 
+            />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/error_layout_bar4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20.67dip"
+            android:layout_marginTop="13.3dip"
+            >
+		<ImageView 
+		     android:id="@+id/error_layout_iv4"
+		    android:layout_height="18.67dip"
+		    android:layout_width="18.67dip"
+		    android:layout_gravity="center_vertical"
+		    android:background="@drawable/boy_posterror_no"
+		    />
+        <TextView 
+            android:id="@+id/error_chaos4"           
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+        	android:layout_marginLeft="10.6dip"
+        	android:gravity="center_vertical"
+        	android:layout_gravity="center_vertical"
+            android:text="@string/boyi_readbook_fail4"
+            android:textColor="@color/boyi_text_grey"
+            android:textSize="12.67sp" 
+            />
+        </LinearLayout>
+        
+        <EditText
+                android:id="@+id/suggest_content_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|top"
+                android:layout_marginLeft="14.0dip"
+                android:layout_marginRight="14.0dip"
+                android:layout_marginTop="10dip"
+                android:padding="6dip"
+                android:hint="请输入详细错误内容，我们会及时处理..."
+                android:textSize="10.6sp"
+                android:background="@drawable/ic_text_frame_gray_normal"
+                android:minLines="5" />
+        
+        <View 
+                android:layout_height="0.5dip"
+                android:layout_width="match_parent"
+                android:background="@color/boyi_gray"
+                />
+        
+	
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="21.3dip"
+            android:layout_marginTop="16.67dip"  
+            android:layout_gravity="bottom"        
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/readbook_btn_yes"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/boy_bt_green_ages"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="确定"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="25.5dip"
+                android:layout_height="match_parent"
+                 />  
+
+            <Button
+                android:id="@+id/readbook_btn_no"
+                android:layout_width="0.0dip"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/boy_bt_write_ages"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="取消"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

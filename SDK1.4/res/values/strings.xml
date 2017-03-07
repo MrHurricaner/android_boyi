@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">看书</string>
+    <string name="boyi_company_name">博易创为</string>
+    
+    <string name="boyi_sex_title">请选择你的性别</string>
+    <string name="boyi_sex_recommand">我们会根据你的性别为你推荐不同的书籍</string>
+    <string name="boyi_sex_boy">我是男神</string>
+    <string name="boyi_sex_girl">我是女神</string>
+  
+    
+    <string name="boyi_user_attention">关注</string>
+    <string name="boyi_user_fans">粉丝</string>
+    <string name="no_net">网速不给力，请稍候重试~</string>
+    <string name="boyi_title_browswer_book">导入书籍</string>
+    <string name="boyi_title_user">用户</string>
+    <string name="boyi_title_bookshelf">书架</string>
+    <string name="boyi_title_bookstore">书城</string>
+    <string name="boyi_web_refresh">刷新</string>
+    <string name="boyi_web_error">请检查网络是否连接</string>
+    
+    <string name="boyi_title_filebrowser">导入书籍</string>
+    <string name="boyi_title_setting">设置</string>
+    
+    <string name="boyi_share_webchat">朋友圈</string>
+    <string name="boyi_share_qq">qq空间</string>
+    
+    <string name="boyi_file_browser">手机目录</string>
+    <string name="boyi_file_search">智能搜索</string>
+    
+    <string name="boyi_title_message">我的消息</string>
+    <string name="boyi_message_private">私信</string>
+    <string name="boyi_message_system">系统</string>
+    <string name="boyi_message_empty">您没有任何私信</string>
+    <string name="boyi_message_goto">找个作者/粉丝聊聊天吧</string>
+    
+    <string name="boyi_title_consume">我的消费</string>
+    <string name="boyi_consume_buy">购书记录</string>
+    <string name="boyi_consume_recharge">充值记录</string>
+    
+    <string name="boyi_consume_recommend">您已购买的书籍章节，重复下载不会再次扣费</string>
+    
+    <string name="boyi_bookshelf_empty">您的书架没有任何内容</string>
+    <string name="boyi_goto_bookstore">去书城逛逛吧</string>
+    
+    <string name="boyi_title_login">账号登录</string>
+    <string name="boyi_login_userid">账号：</string>
+    <string name="boyi_login_password">密码：</string>
+    <string name="boyi_login_userid_hint">请输入用户名或手机号</string>
+    <string name="boyi_login_password_hint">请输入密码</string>
+    <string name="boyi_login_webchat">微信登录</string>
+    <string name="boyi_login_weibo">微博登录</string>
+    
+    <string name="boyi_auto_account_nickname">游客</string>
+    <string name="boyi_auto_account_signature">我不是屌丝</string>
+    
+    <string name="boyi_title_user_info">我的资料</string>
+    <!-- <string name="title_modify_password">修改密码</string> -->
+    <string name="boyi_user_info_id">ID</string>
+    <string name="boyi_user_info_save">保存</string>
+    <string name="boyi_user_info_nickname">昵称</string>
+    <string name="boyi_user_info_sex">性别</string>
+    <string name="boyi_user_info_signature">签名</string>
+    <string name="boyi_user_info_phone_bind">手机号绑定</string>
+    <string name="boyi_user_info_change">切换账号</string>
+    <string name="boyi_user_info_modify">修改</string>
+    <string name="boyi_user_info_binded">已绑定</string>
+    <string name="boyi_user_info_unbind">绑定</string>
+    <string name="boyi_user_info_modify_pwd">修改密码</string>
+    
+    <string name="boyi_title_user_attention">我的关注</string>
+    <string name="boyi_user_attention_empty">赶紧去关注喜欢的作者吧</string>
+    
+    <string name="boyi_title_user_attention_detail">关注详情</string>
+    <string name="boyi_attention_detail_left">来往私信</string>
+    <string name="boyi_attention_detail_right">作品集</string>
+    
+    
+    <string name="boyi_title_user_fans">我的粉丝</string>
+    <string name="boyi_user_fans_empty">您还没有粉丝</string>
+    
+    <string name="boyi_attention_allow">允许关注</string>
+    <string name="boyi_attention_close">屏蔽</string>
+    
+    <string name="boyi_title_user_fans_detail">粉丝详情</string>
+    <string name="boyi_fans_detail_left">来往私信</string>
+    <string name="boyi_fans_detail_right">喜欢的书</string>
+    <string name="boyi_fans_detail_give">赠送</string>
+    
+    
+    <string name="boyi_title_user_mission">我的任务</string>
+    <string name="boyi_title_user_activity">我的活动</string>
+    <string name="boyi_title_main_sign">每日签到</string>
+    <string name="boyi_title_user_gift">我的礼物</string>
+    
+    <string name="boyi_title_suggest">个人中心</string>
+    <string name="boyi_suggest_feedback">问题反馈</string>
+    <string name="boyi_suggest_thanks">谢谢您的宝贵意见，我们会更加努力的！</string>
+    <string name="boyi_suggest_send_ok">感谢您的宝贵意见，我们会更加努力为您提供更好的阅读体验</string>
+    
+    <string name="boyi_title_recharge">快速支付</string>
+    <string name="boyi_recharge_webchat">微信支付</string>
+    <string name="boyi_recharge_SMS">短信支付</string>
+    <string name="boyi_recharge_alipay">支付宝</string>
+    <string name="boyi_recharge_credit_crad">信用卡</string>
+    <string name="boyi_recharge_yibao_crad">易宝</string>
+    <string name="boyi_recharge_mobile_crad">手机充值卡</string>
+    <string name="boyi_recharge_bank_crad">银联</string>
+    <string name="boyi_recharge_tenpay">财付通</string>
+    <string name="boyi_reward_pay">下载奖励</string>
+   
+     <string name="boyi_recharge_wenxintishi_text1"> 
+          充值阅读权限仅先本书城使用</string>
+     <string name="boyi_recharge_wenxintishi_text2"> 
+          使用短信方式进行充值,1元兑换100金币</string>
+     <string name="boyi_recharge_wenxintishi_text3"> 
+          使用短信充值方式,1元兑换50金币</string>
+     <string name="boyi_recharge_wenxintishi_text4"> 
+          若充值后账户余额长时间无变化,请记录您的用户ID后,致电400-</string>
+     <string name="boyi_recharge_wenxintishi_text5"> 
+          为保护您的资产安全,请使用官方唯一支付方式易阅客户端进行充值</string>
+        
+    <string name="boyi_kindly_remind">温馨提示</string>
+    
+    <string name="boyi_pay_exchange">阅读汇率:1元=100金币</string>
+    <string name="boyi_pay_exchange_sms">阅读汇率:1元=50金币+50代金券</string>
+    
+    <string name="boyi_title_about">关于</string>
+    <string name="boyi_about_app_name">小说</string>
+    <string name="boyi_about_update">检查更新</string>
+    <string name="boyi_about_home_url">官网：www.xiang5.com</string>
+    <string name="boyi_about_webchat">腾讯微信：</string>
+    <string name="boyi_about_weibo">新浪微博：</string>
+    
+    <string name="boyi_title_pop_app_update">版本更新</string>
+    <string name="boyi_pop_app_update_now">立即升级</string>
+    <string name="boyi_pop_app_update_later">以后再说</string>
+    
+    <string name="boyi_buy_content_info">您正阅读的章节是收费章节，购买更多章节，后面更精彩</string>
+    
+    <string name="boyi_errcode_success">发送成功</string>
+    <string name="boyi_errcode_cancel">发送取消</string>
+    <string name="boyi_errcode_deny">发送被拒绝</string>
+    <string name="boyi_errcode_unknown">发送返回</string>
+    
+    <string name="boyi_shelf_notify">公告：</string>
+    <string name="boyi_buybook_wenxintishi1">1、批量购买章节是付费章节，每章0.12元，如期间有免费章节和已购买章节，下载时将一并下载。</string>
+    <string name="boyi_buybook_wenxintishi2">2、免费章节及已购买章节不会重复收费，请您放心购买。</string>
+    
+    <string name="boyi_user_opinion_title">意见反馈</string>
+    <string name="boyi_title_modify_password">修改密码</string>
+    <string name="boyi_button_pay">确定充值</string>
+    <string name="boyi_recharge_surprise">送礼啦！首次充值，充多少送多少，多充多得。</string>
+    <string name="boy_login_one_key">一键快速登录</string>
+    <string name="boy_login_via_sms_info">免费发送短信快速登录，即可阅读后续章节</string>
+        <string name="boy_login_one_key_cm">移动用户一键注册</string>
+    <string name="boy_login_one_key_telcom">电信用户一键注册</string>
+    <string name="boy_login_one_key_cu">联通用户一键注册</string>
+    <string name="boy_ak_tips">登录成功后，可阅读更多内容</string>
+    <string name="boy_ak_login">快速登录</string>
+    <string name="akpay_login_cm">移动快速登录</string>
+    <string name="akpay_login_un">联通快速登录</string>
+    <string name="akpay_login_cu">电信快速登录</string>
+    <string name="akpay_login_retry">重试登录</string>
+    <string name="akpay_login_ishugui_tips">订购提示</string>
+    <string name="akpay_login_ishugui_title">订购</string>
+    <string name="akpay_enter_and_order">确认并订购</string>
+        <string name="onekey_login_remind_one">1. 为了方便使用，系统会发送一条短信到运营商完成登录，该短信完全免费。</string>
+    <string name="onekey_login_remind_two">2. 我们非常重视您的信息安全，该短信直接发送给运营商，我们会确保您的信息不泄露给第三方。</string>
+    <string name="onekey_login_remind_three">3. 部分手机（如小米、魅族）及安全软件（如乐安全）会提示用户是否允许发送短信，请选择允许，该短信仍为免费。</string>
+    <string name="onekey_login_remind_four">""</string>
+    <string name="onekey_login_remind_five">"登录失败解决办法</string>
+    <string name="onekey_login_remind_six">"如果您一直登录失败，请首先检查是否存在如下几种情况：</string>
+    <string name="onekey_login_remind_seven">1.是否安装了安全软件，并且检查针对本阅读软件设置了“信任该程序”的权限，如果设置为“不信任”则会导致登录失败；</string>
+    <string name="onekey_login_remind_eight">2.您在登录的时候系统可能会提示发一条免费短信到运营商，请确定是否点击“允许”或“发送”，如果选择了“拒绝“或者什么也没有选择。则会导致登录失败；</string>
+    <string name="onekey_login_remind_nine">3.请确定手机是否安装了sim卡，并且sim卡是可以正常打电话或者发短息；</string>
+    <string name="onekey_login_remind_ten">4.请确定手机是否双卡，并且主卡槽上的sim卡是可以正常打电话或者发短信。如果有欠费停机的卡，建议将该欠费的卡从卡槽中拔出。</string>
+    
+    <string name="order_description">1.已订购的章节或图书再次阅读无需重复付费，以目录章节为准。</string>
+    <string name="cm_user_telephone_charge_order">3.书和计费由中国移动提供，用话费账户进行付费，部分用户每天话费的费用可能受到10086以中国移动和阅读业务的温馨提示，若有异议请联系客服。</string>
+    <string name="user_sug">2.已购买本书任意章节者后序购买不再提示。</string>
+ 
+    
+    
+    <!-- 底部导航 -->
+    <!-- 
+     <string name="main_bottom_bar1">综合</string>
+     <string name="main_bottom_bar2">男生</string>
+     <string name="main_bottom_bar3">女生</string>
+     <string name="main_bottom_bar4">出版</string>
+     <string name="main_bottom_bar5">搜索</string>
+      -->
+     
+     <string name="boyi_app_name">快播阅读</string>
+    <string name="boyi_action_settings">Settings</string>
+    <string name="boyi_hello_world">Hello world!</string>
+    <string name="boyi_small_text_size">12sp</string>
+    <string name="boyi_directory_text_title">目录</string>
+    
+    
+    <string name="boyi_search_boy_recommend">男生小说热搜</string>
+    <string name="boyi_search_girl_recommend">女生小说热搜</string>
+    <string name="boyi_search_publish_recommend">出版小说热搜</string>
+    
+    <!-- 
+    <string name="search_boy_author">男频大神作者</string>
+    <string name="search_girl_author">女频大神作者</string>
+    <string name="search_publish_author">传统名家作者</string>
+     -->
+    
+    <string name="boyi_search_boy_author">男频大神作者</string>
+    <string name="boyi_search_girl_author">女频大神作者</string>
+    <string name="boyi_search_publish_author">传统名家作者</string>
+    
+    <string name="boyi_search_keyword_recommend">最近热词</string>
+    
+    <!-- 热词搜索的url-->
+    <string name="boyi_search_hot_keyword">http://sdk.boetech.cn/api/BoyiSdk/keywords</string>
+    
+    <!-- 底部导航 -->
+     <string name="boyi_main_bottom_bar1">综合</string>
+     <string name="boyi_main_bottom_bar2">男生</string>
+     <string name="boyi_main_bottom_bar3">女生</string>
+     <string name="boyi_main_bottom_bar4">出版</string>
+     <string name="boyi_main_bottom_bar5">搜索</string>     
+     <string name="boyi_search_by_name">按书名</string>     
+     <string name="boyi_search_by_info">按作者</string>     
+     <string name="boyi_search_by_word">关键字</string> 
+         
+     <string name="boyi_dir_last_page">上一页</string>     
+     <string name="boyi_dir_next_page">下一页</string>     
+     <string name="boyi_dir_jump_page">跳转到</string>     
+     <string name="boyi_book_isfree">免费</string>     
+     <string name="boyi_book_isfree_no">跳转到</string>     
+     <!-- 读书 -->
+    <string name="boyi_by_shelf_title">书籍</string>
+    <string name="boyi_by_shop_title">书城</string>
+     
+    <!--其他人看过推荐  -->
+    <string name="boyi_recommend_url">http://sdk.boetech.cn/api/BoyiSdk/bookTuijianNums</string>
+    <string name="boyi_shelf_help_text">尊敬的读者您好，您在阅读过程中遇到的疑难问题，都可致电我们的投诉及建议热线:   4000858737</string>
+    <string name="boyi_readbook_buy_window">您正在阅读  </string>
+    <string name="boyi_readbook_buy_kefu"> ※ 移动手机用户默认使用话费支付</string>
+    <string name="boyi_readbook_buy_kefu2">※ 客服电话 ：4000858737</string>
+    
+    
+    <string name="boyi_readbook_login_success">登陆成功</string>
+    <string name="boyi_readbook_login_fail">登陆失败</string>
+    <string name="boyi_confirm_delete">确认删除?</string>
+    <string name="boyi_confirm_exit">您真的要退出吗？</string>
+    <string name="boyi_confirm_delete_go">去看看</string>
+    <string name="boyi_confirm">确认</string>
+    <string name="boyi_confirm_delete_cancel">取消</string>
+    <string name="boyi_exit_tishi">一般人我不会告诉他这几本书：</string>
+    <string name="select">全选</string>
+    <string name="delete">删除</string>
+    
+    <string name="boyi_readbook_fail">阅读报错</string>
+    <string name="boyi_readbook_fail1">章节错乱（重章、错章、空白页面）</string>
+    <string name="boyi_readbook_fail2">严重错别字</string>
+    <string name="boyi_readbook_fail3">下载失败</string>
+    <string name="boyi_readbook_fail4">支付异常</string>
+    <string name="boyi_readbook_fail_title">您确定反馈   </string>
+    <string name="boyi_error_freeback_sucess">提交成功，我们会尽快处理！</string>
+    <string name="boyi_error_freeback_fail">您没有选择或输入需要反馈的内容</string>
+    <string name="boyi_dirctory_download">点击下载已购章节</string>
+    <string name="boyi_readbook_endpage">没有下一章了,作者正在赶稿中~</string>
+    <string name="boyi_read_goshelf">看书架</string>
+    <string name="boyi_read_gostore">逛书城</string>
+    <string name="boyi_endpage_book">看过此书的读者还在看:</string>
+    <string name="boyi_goto_reading">继续阅读</string>
+    <string name="boyi_pople_read">人读过</string>
+    <string name="boyi_pople_read2">人喜欢</string>
+    <string name="boyi_pople_read3">人评论</string>
+    <string name="boyi_detail_note1">内容简介</string>
+    <string name="boyi_detail_note2">目录</string>
+    <string name="boyi_detail_note3">评论</string>
+    <string name="boyi_detail_note4">看过此书的读者还在看</string>
+    
+	<string name="not_updated_yet">暂未更新过</string>
+	<string name="updated_at">上次更新于%1$s前</string>
+	<string name="updated_just_now">刚刚更新</string>
+	<string name="time_error">时间有问题</string>
+    <string name="boyi_user_setting">系统设置</string>
+    <string name="boyi_user_help">帮助中心</string>
+    <string name="boyi_user_buy">消费说明</string>
+    <string name="boyi_user_our">关于我们</string>
+    <string name="boyi_user_break">退出软件</string>
+
+    <string name="delete_cache">您确定清除所有缓存吗？</string>
+
+    <string name="boyi_user_geft">精选推荐</string>
+    <string name="boyi_user_game">热推游戏</string>
+     <!--书城  -->
+     <string name="boyi_bookstore_recommend">推荐</string>
+     <string name="boyi_bookstore_ranked">排行</string>
+     <string name="boyi_bookstore_sort">分类</string>
+     <string name="boyi_bookstore_new_book">新书</string>
+     <string name="boyi_bookshelf_gift">精选好书</string>
+     <string name="boyi_bookshelf_freeread">免费书</string>
+    
+</resources>

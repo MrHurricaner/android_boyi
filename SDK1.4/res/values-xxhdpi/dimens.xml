@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="shelf_cover_width">65.0dip</dimen>
+    <dimen name="shelf_cover_height">79.0dip</dimen>
+
+    <!--
+    <dimen name="shelf_cover_width_b">60dip</dimen>
+    <dimen name="shelf_cover_height_b">80dip</dimen>
+    -->
+
+    <dimen name="shelf_cover_width_b">85.3dip</dimen>
+    <dimen name="shelf_cover_height_b">108.7dip</dimen>
+    <dimen name="textsize_small">16.0sp</dimen>
+    <dimen name="textsize_normal">18.0sp</dimen>
+    <dimen name="textsize_bigger">24.0sp</dimen>
+    <dimen name="textsize_sbigger">22.0sp</dimen>
+    <dimen name="height_header">53.0dip</dimen>
+    <dimen name="textsize_main_selected">32.0sp</dimen>
+    <dimen name="textsize_main_disable">22.0sp</dimen>
+    <dimen name="user_photo_width">87.0dip</dimen>
+    <dimen name="user_photo_height">80.0dip</dimen>
+    <dimen name="read_action_top_height">40.0dip</dimen>
+    <dimen name="pay_item_height">85.0dip</dimen>
+    <dimen name="menu_textView_maxWidth">110.0dip</dimen>
+    <!-- 绑定手机号页面、修改密码页面 -->
+    <!-- 最外面的lineaLayout -->
+    <dimen name="bind_textsize">14.0sp</dimen>
+    <dimen name="bind_parent_margin">10.0dip</dimen>
+    <dimen name="bind_number_ll_marginlr">18.0dip</dimen>
+    <dimen name="bind_number_ll_margintop">20.0dip</dimen>
+    <dimen name="bind_number_height">50.0dip</dimen>
+    <dimen name="bind_number_rl_marginright">8.0dip</dimen>
+    <dimen name="bind_view_martop">45.0dip</dimen>
+    <dimen name="bind_view_height">0.5dip</dimen>
+    <dimen name="bind_button_height">40dip</dimen>
+    <!-- 扫描功能布局 -->
+    <dimen name="scaning_text_size">18sp</dimen>
+    <dimen name="scan_ll_margintop">50dip</dimen>
+    <dimen name="scan_ll_marginbottom">30dip</dimen>
+    <!-- <dimen name="imageview_marginbottom">10dip</dimen> -->
+    <dimen name="imageview_margin">10sp</dimen>
+    <dimen name="imageview_width">175sp</dimen>
+    <dimen name="imageview_height">175sp</dimen>
+    <dimen name="button_width">60sp</dimen>
+    <dimen name="button_height">60sp</dimen>
+    <dimen name="button_margin">45sp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="scan_text_size">12sp</dimen>
+    <dimen name="edit_ll_height">45dip</dimen>
+    <dimen name="login_button_height">40dip</dimen>
+    <dimen name="textview_margin_top">5dip</dimen>
+    <dimen name="button_scan_margintop">15dip</dimen>
+    <dimen name="imageview_margin_others">10sp</dimen>
+    <dimen name="bookdetail_title">13.3sp</dimen>
+    <dimen name="scan_rl_margintop">30dip</dimen>
+    <!-- 自定义放大镜 -->
+    <dimen name="sycle_view">200dip</dimen>
+    <dimen name="margin_top">100dip</dimen>
+    <!-- 书架页面没有书籍的排版 -->
+    <dimen name="rl_height">429dip</dimen>
+    <dimen name="button_padding">5.0dip</dimen>
+    <dimen name="imageview_marginbottom">14dip</dimen>
+    <!-- 每日推荐弹窗 -->
+    
+   <!--  <dimen name="image_paddingTop">15dp</dimen>
+    <dimen name="image_paddingRight">20dp</dimen>
+    <dimen name="image_paddingBottom">10dp</dimen>
+    <dimen name="title_textSize">24dp</dimen>
+    <dimen name="title_marginTop">22dp</dimen>
+    <dimen name="title_marginLeft">17dp</dimen>
+    <dimen name="title_marginBottom">24dp</dimen>
+    <dimen name="button_textSize">22dp</dimen>
+    <dimen name="button_seeHeight">66dp</dimen>
+    <dimen name="button_seeWidth">376dp</dimen>
+    <dimen name="button_quxiao">22dp</dimen> -->
+
+</resources>

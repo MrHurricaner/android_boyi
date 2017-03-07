@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="61.7dp"
+    android:orientation="vertical">
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E1E1E1"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="6.7dp"
+        android:background="#F0F3F5"
+        ></LinearLayout>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E1E1E1"
+        />
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f7f7f7"
+        >
+
+      <RelativeLayout
+          android:id="@+id/store_top_bar11"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:paddingTop="6.7dp"
+          
+          android:orientation="vertical" >
+          <LinearLayout 
+              android:id="@+id/recommend_ll"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+         <ImageView 
+            android:id="@+id/store_top_imageView1"
+            android:layout_width="22.7dp"
+            android:layout_height="22.7dp"
+            android:src="@drawable/boy_recomment_clicked"
+            />
+        <TextView
+            android:id="@+id/store_top_textView1"
+            android:layout_marginTop="6.3dp" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#00be8e"
+            android:text="@string/boyi_bookstore_recommend"
+            />
+          </LinearLayout>
+      <View 
+        android:id="@+id/top_bar1"
+        android:layout_marginTop="6.3dp"
+        android:layout_height="1.3dip"
+        android:layout_width="match_parent"
+        android:background="@color/boyi_main_top_bar"
+        android:layout_alignParentBottom="true"
+        />
+ 
+    </RelativeLayout>
+    
+ 
+
+  <RelativeLayout
+          android:id="@+id/store_top_bar22"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:paddingTop="6.7dp"
+          android:orientation="vertical" >
+          <LinearLayout 
+              android:id="@+id/rank_ll"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+         <ImageView
+             android:id="@+id/store_top_imageView2" 
+            android:layout_width="22.7dp"
+            android:layout_height="22.7dp"
+            android:src="@drawable/boy_ranked_unclick"
+            />
+        <TextView
+             android:id="@+id/store_top_textView2"
+            android:layout_marginTop="6.3dp" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#999999"
+            android:text="@string/boyi_bookstore_ranked"
+            />
+          </LinearLayout>
+      <View 
+        android:id="@+id/top_bar2"
+        android:layout_marginTop="6.3dp"
+        android:layout_height="1.3dip"
+        android:layout_width="match_parent"
+        android:background="@color/boyi_main_top_bar"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        />
+ 
+    </RelativeLayout>
+    
+   
+   
+   
+  <RelativeLayout
+        android:id="@+id/store_top_bar33"
+        android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:paddingTop="6.7dp"
+          android:orientation="vertical" 
+        >
+ 
+       <LinearLayout 
+           android:id="@+id/sort_ll"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+         <ImageView 
+             android:id="@+id/store_top_imageView3"
+            android:layout_width="22.7dp"
+            android:layout_height="22.7dp"
+            android:src="@drawable/boy_sort_unclick"
+            />
+        <TextView
+             android:id="@+id/store_top_textView3"
+            android:layout_marginTop="6.3dp" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#999999"
+            android:text="@string/boyi_bookstore_sort"
+            />
+          </LinearLayout>
+    <View 
+        android:id="@+id/top_bar3"
+        android:layout_height="1.3dip"
+        android:layout_width="match_parent"
+        android:background="@color/boyi_main_top_bar"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        />
+    </RelativeLayout>
+  
+
+   <View 
+        android:layout_height="match_parent"
+        android:layout_width="1dp"
+        android:background="@color/boyi_dark_gray"
+        android:visibility="gone"
+        />
+   
+ <RelativeLayout
+        android:id="@+id/store_top_bar44"
+       android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:paddingTop="6.7dp"
+          android:orientation="vertical" 
+        >
+
+   <LinearLayout
+       android:id="@+id/newbook_ll" 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+         <ImageView 
+             android:id="@+id/store_top_imageView4"
+            android:layout_width="22.7dp"
+            android:layout_height="22.7dp"
+            android:src="@drawable/boy_new_book_unclick"
+            />
+        <TextView
+             android:id="@+id/store_top_textView4"
+            android:layout_marginTop="6.3dp" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#999999"
+            android:text="@string/boyi_bookstore_new_book"
+            />
+          </LinearLayout>
+    <View 
+        android:id="@+id/top_bar4"
+        android:layout_height="1.3dip"
+        android:layout_width="match_parent"
+        android:background="@color/boyi_main_top_bar"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        />
+    </RelativeLayout>
+
+
+   <View 
+        android:layout_height="match_parent"
+        android:layout_width="1dp"
+        android:background="@color/boyi_dark_gray"
+        android:visibility="gone"
+        />
+   
+    <RelativeLayout
+        android:id="@+id/store_bottom_bar5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <TextView
+             android:id="@+id/main_bar_tab5_title"
+            android:text="@string/boyi_main_bottom_bar5"
+            style="@style/main_tab_text_style"
+           android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4.0dip" />
+      <View 
+        android:id="@+id/bottom_bar5"
+        android:layout_height="4.5dip"
+        android:layout_width="match_parent"
+        android:background="@color/boyi_main_top_bar"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        />
+    </RelativeLayout>
+ 
+
+        </LinearLayout >
+    
+
+</LinearLayout>

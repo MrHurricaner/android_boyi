@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/boyi_translucence" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="45.0dip"
+        android:layout_marginRight="45.0dip"
+        android:background="@color/boyi_white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9.0dip"
+            android:layout_marginTop="9.0dip"
+            android:gravity="center"
+            android:text="@string/boyi_title_pop_app_update"
+            android:textSize="@dimen/textsize_bigger" />
+        
+        <TextView 
+            android:id="@+id/update_version_tv"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:textSize="@dimen/textsize_small"
+            android:textColor="@color/boyi_text_gray"
+            android:layout_height="wrap_content"/>
+        
+        <TextView 
+            android:id="@+id/update_info_tv"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:textSize="@dimen/textsize_small"
+            android:textColor="@color/boyi_text_gray"
+            android:lineSpacingExtra="4.0sp"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:background="@color/boyi_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:minHeight="31.0dip"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="match_parent"
+                android:background="@color/boyi_gray" />
+
+            <TextView
+                android:id="@+id/update_now_tv"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@color/boyi_text_back_white_to_blue_selector"
+                android:gravity="center"
+                android:padding="4.0dip"
+                android:text="@string/boyi_pop_app_update_now"
+                android:textColor="@color/boyi_text_black"
+                android:textSize="@dimen/textsize_small" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="match_parent"
+                android:background="@color/boyi_gray" />
+
+            <TextView
+                android:id="@+id/update_later_tv"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:background="@color/boyi_text_back_white_to_blue_selector"
+                android:gravity="center"
+                android:padding="4.0dip"
+                android:text="@string/boyi_pop_app_update_later"
+                android:textColor="@color/boyi_text_black"
+                android:textSize="@dimen/textsize_small" />
+
+            <View
+                android:layout_width="1.0dip"
+                android:layout_height="match_parent"
+                android:background="@color/boyi_gray" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginRight="15.0dip"
+            android:background="@color/boyi_gray" />
+    </LinearLayout>
+
+</RelativeLayout>

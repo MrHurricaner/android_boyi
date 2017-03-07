@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_margin="50dp">
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="280dip"
+        android:gravity="center_horizontal"  
+        android:orientation="vertical"
+        android:background="@drawable/boy_shape_round_gray"      
+        >
+     
+     <RelativeLayout 
+         android:layout_width="match_parent"
+         android:layout_height="40dp">
+         <TextView
+             android:id="@+id/text_msg" 
+             android:layout_centerInParent="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="15sp"
+             android:gravity="center"
+             android:textColor="@android:color/black"
+             android:text="获取失败,请检查网络状态并重试"
+             />
+     </RelativeLayout>
+    <LinearLayout 
+        android:id="@+id/rl_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:orientation="horizontal" 
+        android:gravity="center_vertical">
+
+               <Button
+                   android:id="@+id/positive"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="40dp"
+                   android:text="重试"
+                   android:gravity="center"
+                   
+                   />
+
+               <Button
+                   android:id="@+id/negative"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="40dp"
+                   android:gravity="center"
+                   
+                   android:text="取消"/>
+           
+    </LinearLayout>
+     
+    </LinearLayout>
+
+</RelativeLayout>

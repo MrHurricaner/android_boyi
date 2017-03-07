@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_degress">
+     <item>按书名</item>  
+    <item>按作者</item>  
+    <item>关键字</item>  
+    </string-array>
+    <color name="blue">#9BD3D2</color>
+    <color name="boyi_activity_bg">#ffecebe9</color>
+    <color name="boyi_black">#ff505050</color>
+    <color name="boyi_black_touming">#cc000000</color>
+    <color name="boyi_black_touming2">#99000000</color>
+    <color name="boyi_black_touming3">#f91a1a1a</color>
+    <color name="boyi_bottom_bg_yes">#dddddd</color>
+    <color name="boyi_dark_alpa">#ff33322d</color>
+    <color name="boyi_dark_black">#ffa4a4a4</color>
+    <color name="boyi_dark_blue">#ff0099CC</color>
+    <color name="boyi_dark_gray">#ffDBDBDB</color>
+    <color name="boyi_dark_red">#ffD65231</color>
+    <color name="boyi_directory_all_yes">#cfcfcf</color>
+    <color name="boyi_discount_bg">#e9e9e6</color>
+    <color name="boyi_gray">#ffD8D8D8</color>
+    <color name="boyi_green_tiao">#00be8e</color>
+    <color name="boyi_light_blue">#ffca4e2f</color>
+    <color name="boyi_light_gray">#88E6E6E6</color>
+    <color name="boyi_light_orange">#ffff8c69</color>
+    <color name="boyi_light_red">#fff14e4e</color>
+    <color name="boyi_main_background">#b0000000</color>
+    <color name="boyi_main_center_bar">#ffc7dce5</color>
+    <color name="boyi_main_top_bar">#00be8e</color>
+    <color name="boyi_progress_bar">#A7A5A2</color>
+    <color name="boyi_progress_bar_jindu">#EBEBCD</color>
+    <color name="boyi_progress_gray">#ffeaeceb</color>
+    <color name="boyi_read_chapter_boy">#ffc6c7e3</color>
+    <color name="boyi_read_chapter_boy2">#ff626e77</color>
+    <color name="boyi_read_chapter_girl">#ff640043</color>
+    <color name="boyi_read_chapter_girl2">#ff998d80</color>
+    <color name="boyi_read_chapter_ink">#ff323232</color>
+    <color name="boyi_read_chapter_night">#ff787878</color>
+    <color name="boyi_read_extra_boy">#ff707286</color>
+    <color name="boyi_read_extra_girl">#ffb1729c</color>
+    <color name="boyi_read_extra_ink">#ff818181</color>
+    <color name="boyi_read_extra_night">#ff505050</color>
+    <color name="boyi_read_extra_sheep">#ff818181</color>
+    <color name="boyi_read_text_boy">#ff8c8eb1</color>
+    <color name="boyi_read_text_boy2">#ff626e77</color>
+    <color name="boyi_read_text_girl">#ff820057</color>
+    <color name="boyi_read_text_girl2">#ffaeaba6</color>
+    <color name="boyi_read_text_ink">#ff505050</color>
+    <color name="boyi_read_text_night">#ff646464</color>
+    <color name="boyi_read_text_sheep">#ff505050</color>
+    <color name="boyi_read_text_sheep2">#ff3c3c3c</color>
+    <color name="boyi_read_title_boy">#ffc6c7e3</color>
+    <color name="boyi_read_title_girl">#ff640043</color>
+    <color name="boyi_read_title_ink">#ff323232</color>
+    <color name="boyi_read_title_night">#ff787878</color>
+    <color name="boyi_read_title_sheep">#ff323232</color>
+    <color name="boyi_reader_backgorund">#CA4E2F</color>
+    <color name="boyi_reader_gray">#ECEBE9</color>
+    <color name="boyi_reader_page_title">#993333</color>
+    <color name="boyi_search_biaoqian_blue">#ff00b5ff</color>
+    <color name="boyi_search_biaoqian_red">#ff0078</color>
+    <color name="boyi_splash_back">#ff10c4ff</color>
+    <color name="boyi_text_about">#ff646464</color>
+    <color name="boyi_text_black">#ff505050</color>
+    <color name="boyi_text_gray">#ff838383</color>
+    <color name="boyi_text_grey">#909090</color>
+    <color name="boyi_text_light">#ffd7d7d7</color>
+    <color name="boyi_text_light_gray">#ffceefff</color>
+    <color name="boyi_textview_grad">#717171</color>
+    <color name="boyi_textview_gray_color">#7e7e7e</color>
+    <color name="boyi_textview_green_color">#00be8e</color>
+    <color name="boyi_translucence">#b0000000</color>
+    <color name="boyi_transparent">#00000000</color>
+    <color name="boyi_white">#ffffffff</color>
+    <color name="boyi_white1">#F7F7F7</color>
+    <color name="boyi_white_color_disable">#7fffffff</color>
+    <color name="boyi_white_translucence">#e5ffffff</color>
+    <color name="btn_hong">#F37A79</color>
+    <color name="gold">#b89766</color>
+    <color name="pink">#E9A7C3</color>
+    <color name="read_chapter_sheep">#ff323232</color>
+    <color name="red">#DD6060</color>
+    <color name="search_pressed">#e5f4f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#EEC178</color>
+    <color name="zhi">#B9AFEE</color>
+    <declare-styleable name="Circle"><attr format="integer" name="circleBackground"/><attr name="firstChildPosition">
+            <enum name="East" value="0"/>
+            <enum name="South" value="90"/>
+            <enum name="West" value="180"/>
+            <enum name="North" value="270"/>
+        </attr><attr format="boolean" name="rotateToCenter"/><attr format="boolean" name="isRotating"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="dimension" name="horizontalSpacing"/><attr format="dimension" name="verticalSpacing"/><attr format="boolean" name="iscenter"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bind_button_height">40dip</dimen>
+    <dimen name="bind_number_height">50.0dip</dimen>
+    <dimen name="bind_number_ll_marginlr">18.0dip</dimen>
+    <dimen name="bind_number_ll_margintop">20.0dip</dimen>
+    <dimen name="bind_number_rl_marginright">8.0dip</dimen>
+    <dimen name="bind_parent_margin">10.0dip</dimen>
+    <dimen name="bind_textsize">14.0sp</dimen>
+    <dimen name="bind_view_height">0.5dip</dimen>
+    <dimen name="bind_view_martop">45.0dip</dimen>
+    <dimen name="bookdetail_title">13.3sp</dimen>
+    <dimen name="button_height">60sp</dimen>
+    <dimen name="button_margin">45sp</dimen>
+    <dimen name="button_padding">5.0dip</dimen>
+    <dimen name="button_quxiao">78dp</dimen>
+    <dimen name="button_scan_margintop">15dip</dimen>
+    <dimen name="button_seeHeight">44dp</dimen>
+    <dimen name="button_seeWidth">250dp</dimen>
+    <dimen name="button_textSize">22sp</dimen>
+    <dimen name="button_text_size">20sp</dimen>
+    <dimen name="button_width">60sp</dimen>
+    <dimen name="edit_ll_height">45dip</dimen>
+    <dimen name="height_header">53.0dip</dimen>
+    <dimen name="image_paddingBottom">7dp</dimen>
+    <dimen name="image_paddingRight">10dp</dimen>
+    <dimen name="image_paddingTop">10dp</dimen>
+    <dimen name="imageview_height">175sp</dimen>
+    <dimen name="imageview_margin">10sp</dimen>
+    <dimen name="imageview_margin_others">10sp</dimen>
+    <dimen name="imageview_marginbottom">14dip</dimen>
+    <dimen name="imageview_width">175sp</dimen>
+    <dimen name="jianjie_textSize">26sp</dimen>
+    <dimen name="login_button_height">40dip</dimen>
+    <dimen name="margin_top">100dip</dimen>
+    <dimen name="menu_textView_maxWidth">110.0dip</dimen>
+    <dimen name="pay_item_height">85.0dip</dimen>
+    <dimen name="read_action_top_height">66.0dip</dimen>
+    <dimen name="reconment_textSize">24sp</dimen>
+    <dimen name="rl_height">429dip</dimen>
+    <dimen name="scan_ll_marginbottom">30dip</dimen>
+    <dimen name="scan_ll_margintop">50dip</dimen>
+    <dimen name="scan_rl_margintop">30dip</dimen>
+    <dimen name="scan_text_size">12sp</dimen>
+    <dimen name="scaning_text_size">18sp</dimen>
+    <dimen name="shelf_cover_height">79.0dip</dimen>
+    <dimen name="shelf_cover_height_b">96.0dip</dimen>
+    <dimen name="shelf_cover_width">65.0dip</dimen>
+    <dimen name="shelf_cover_width_b">74dip</dimen>
+    <dimen name="sycle_view">200dip</dimen>
+    <dimen name="textsize_bigger">24.0sp</dimen>
+    <dimen name="textsize_main_disable">22.0sp</dimen>
+    <dimen name="textsize_main_selected">32.0sp</dimen>
+    <dimen name="textsize_normal">18.0sp</dimen>
+    <dimen name="textsize_sbigger">22.0sp</dimen>
+    <dimen name="textsize_small">16.0sp</dimen>
+    <dimen name="textview_margin_top">5dip</dimen>
+    <dimen name="title_marginBottom">16dp</dimen>
+    <dimen name="title_marginLeft">11dp</dimen>
+    <dimen name="title_marginTop">15dp</dimen>
+    <dimen name="title_textSize">24sp</dimen>
+    <dimen name="user_photo_height">80.0dip</dimen>
+    <dimen name="user_photo_width">87.0dip</dimen>
+    <string name="akpay_enter_and_order">确认并订购</string>
+    <string name="akpay_login_cm">移动快速登录</string>
+    <string name="akpay_login_cu">电信快速登录</string>
+    <string name="akpay_login_ishugui_tips">订购提示</string>
+    <string name="akpay_login_ishugui_title">订购</string>
+    <string name="akpay_login_retry">重试登录</string>
+    <string name="akpay_login_un">联通快速登录</string>
+    <string name="app_name">看书</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="boy_ak_login">快速登录</string>
+    <string name="boy_ak_tips">登录成功后，可阅读更多内容</string>
+    <string name="boy_login_one_key">一键快速登录</string>
+    <string name="boy_login_one_key_cm">移动用户一键注册</string>
+    <string name="boy_login_one_key_cu">联通用户一键注册</string>
+    <string name="boy_login_one_key_telcom">电信用户一键注册</string>
+    <string name="boy_login_via_sms_info">免费发送短信快速登录，即可阅读后续章节</string>
+    <string name="boyi_about_app_name">小说</string>
+    <string name="boyi_about_home_url">官网：www.xiang5.com</string>
+    <string name="boyi_about_update">检查更新</string>
+    <string name="boyi_about_webchat">腾讯微信：</string>
+    <string name="boyi_about_weibo">新浪微博：</string>
+    <string name="boyi_action_settings">Settings</string>
+    <string name="boyi_app_name">快播阅读</string>
+    <string name="boyi_attention_allow">允许关注</string>
+    <string name="boyi_attention_close">屏蔽</string>
+    <string name="boyi_attention_detail_left">来往私信</string>
+    <string name="boyi_attention_detail_right">作品集</string>
+    <string name="boyi_auto_account_nickname">游客</string>
+    <string name="boyi_auto_account_signature">我不是屌丝</string>
+    <string name="boyi_book_isfree">免费</string>
+    <string name="boyi_book_isfree_no">跳转到</string>
+    <string name="boyi_bookshelf_empty">您的书架没有任何内容</string>
+    <string name="boyi_bookshelf_freeread">免费书</string>
+    <string name="boyi_bookshelf_gift">精选好书</string>
+    <string name="boyi_bookstore_new_book">新书</string>
+    <string name="boyi_bookstore_ranked">排行</string>
+    <string name="boyi_bookstore_recommend">推荐</string>
+    <string name="boyi_bookstore_sort">分类</string>
+    <string name="boyi_button_pay">确定充值</string>
+    <string name="boyi_buy_content_info">您正阅读的章节是收费章节，购买更多章节，后面更精彩</string>
+    <string name="boyi_buybook_wenxintishi1">1、批量购买章节是付费章节，每章0.12元，如期间有免费章节和已购买章节，下载时将一并下载。</string>
+    <string name="boyi_buybook_wenxintishi2">2、免费章节及已购买章节不会重复收费，请您放心购买。</string>
+    <string name="boyi_by_shelf_title">书籍</string>
+    <string name="boyi_by_shop_title">书城</string>
+    <string name="boyi_company_name">博易创为</string>
+    <string name="boyi_confirm">确认</string>
+    <string name="boyi_confirm_delete">确认删除?</string>
+    <string name="boyi_confirm_delete_cancel">取消</string>
+    <string name="boyi_confirm_delete_go">去看看</string>
+    <string name="boyi_confirm_exit">您真的要退出吗？</string>
+    <string name="boyi_consume_buy">购书记录</string>
+    <string name="boyi_consume_recharge">充值记录</string>
+    <string name="boyi_consume_recommend">您已购买的书籍章节，重复下载不会再次扣费</string>
+    <string name="boyi_detail_note1">内容简介</string>
+    <string name="boyi_detail_note2">目录</string>
+    <string name="boyi_detail_note3">评论</string>
+    <string name="boyi_detail_note4">看过此书的读者还在看</string>
+    <string name="boyi_dir_jump_page">跳转到</string>
+    <string name="boyi_dir_last_page">上一页</string>
+    <string name="boyi_dir_next_page">下一页</string>
+    <string name="boyi_dirctory_download">点击下载已购章节</string>
+    <string name="boyi_directory_text_title">目录</string>
+    <string name="boyi_endpage_book">看过此书的读者还在看:</string>
+    <string name="boyi_errcode_cancel">发送取消</string>
+    <string name="boyi_errcode_deny">发送被拒绝</string>
+    <string name="boyi_errcode_success">发送成功</string>
+    <string name="boyi_errcode_unknown">发送返回</string>
+    <string name="boyi_error_freeback_fail">您没有选择或输入需要反馈的内容</string>
+    <string name="boyi_error_freeback_sucess">提交成功，我们会尽快处理！</string>
+    <string name="boyi_exit_tishi">一般人我不会告诉他这几本书：</string>
+    <string name="boyi_fans_detail_give">赠送</string>
+    <string name="boyi_fans_detail_left">来往私信</string>
+    <string name="boyi_fans_detail_right">喜欢的书</string>
+    <string name="boyi_file_browser">手机目录</string>
+    <string name="boyi_file_search">智能搜索</string>
+    <string name="boyi_goto_bookstore">去书城逛逛吧</string>
+    <string name="boyi_goto_reading">继续阅读</string>
+    <string name="boyi_hello_world">Hello world!</string>
+    <string name="boyi_kindly_remind">温馨提示</string>
+    <string name="boyi_login_password">密码：</string>
+    <string name="boyi_login_password_hint">请输入密码</string>
+    <string name="boyi_login_userid">账号：</string>
+    <string name="boyi_login_userid_hint">请输入用户名或手机号</string>
+    <string name="boyi_login_webchat">微信登录</string>
+    <string name="boyi_login_weibo">微博登录</string>
+    <string name="boyi_main_bottom_bar1">综合</string>
+    <string name="boyi_main_bottom_bar2">男生</string>
+    <string name="boyi_main_bottom_bar3">女生</string>
+    <string name="boyi_main_bottom_bar4">出版</string>
+    <string name="boyi_main_bottom_bar5">搜索</string>
+    <string name="boyi_message_empty">您没有任何私信</string>
+    <string name="boyi_message_goto">找个作者/粉丝聊聊天吧</string>
+    <string name="boyi_message_private">私信</string>
+    <string name="boyi_message_system">系统</string>
+    <string name="boyi_pay_exchange">阅读汇率:1元=100金币</string>
+    <string name="boyi_pay_exchange_sms">阅读汇率:1元=50金币+50代金券</string>
+    <string name="boyi_pop_app_update_later">以后再说</string>
+    <string name="boyi_pop_app_update_now">立即升级</string>
+    <string name="boyi_pople_read">人读过</string>
+    <string name="boyi_pople_read2">人喜欢</string>
+    <string name="boyi_pople_read3">人评论</string>
+    <string name="boyi_read_goshelf">看书架</string>
+    <string name="boyi_read_gostore">逛书城</string>
+    <string name="boyi_readbook_buy_kefu"> ※ 移动手机用户默认使用话费支付</string>
+    <string name="boyi_readbook_buy_kefu2">※ 客服电话 ：4000858737</string>
+    <string name="boyi_readbook_buy_window">您正在阅读  </string>
+    <string name="boyi_readbook_endpage">没有下一章了,作者正在赶稿中~</string>
+    <string name="boyi_readbook_fail">阅读报错</string>
+    <string name="boyi_readbook_fail1">章节错乱（重章、错章、空白页面）</string>
+    <string name="boyi_readbook_fail2">严重错别字</string>
+    <string name="boyi_readbook_fail3">下载失败</string>
+    <string name="boyi_readbook_fail4">支付异常</string>
+    <string name="boyi_readbook_fail_title">您确定反馈   </string>
+    <string name="boyi_readbook_login_fail">登陆失败</string>
+    <string name="boyi_readbook_login_success">登陆成功</string>
+    <string name="boyi_recharge_SMS">短信支付</string>
+    <string name="boyi_recharge_alipay">支付宝</string>
+    <string name="boyi_recharge_bank_crad">银联</string>
+    <string name="boyi_recharge_credit_crad">信用卡</string>
+    <string name="boyi_recharge_mobile_crad">手机充值卡</string>
+    <string name="boyi_recharge_surprise">送礼啦！首次充值，充多少送多少，多充多得。</string>
+    <string name="boyi_recharge_tenpay">财付通</string>
+    <string name="boyi_recharge_webchat">微信支付</string>
+    <string name="boyi_recharge_wenxintishi_text1"> 
+          充值阅读权限仅先本书城使用</string>
+    <string name="boyi_recharge_wenxintishi_text2"> 
+          使用短信方式进行充值,1元兑换100金币</string>
+    <string name="boyi_recharge_wenxintishi_text3"> 
+          使用短信充值方式,1元兑换50金币</string>
+    <string name="boyi_recharge_wenxintishi_text4"> 
+          若充值后账户余额长时间无变化,请记录您的用户ID后,致电400-</string>
+    <string name="boyi_recharge_wenxintishi_text5"> 
+          为保护您的资产安全,请使用官方唯一支付方式易阅客户端进行充值</string>
+    <string name="boyi_recharge_yibao_crad">易宝</string>
+    <string name="boyi_recommend_url">http://sdk.boetech.cn/api/BoyiSdk/bookTuijianNums</string>
+    <string name="boyi_reward_pay">下载奖励</string>
+    <string name="boyi_search_boy_author">男频大神作者</string>
+    <string name="boyi_search_boy_recommend">男生小说热搜</string>
+    <string name="boyi_search_by_info">按作者</string>
+    <string name="boyi_search_by_name">按书名</string>
+    <string name="boyi_search_by_word">关键字</string>
+    <string name="boyi_search_girl_author">女频大神作者</string>
+    <string name="boyi_search_girl_recommend">女生小说热搜</string>
+    <string name="boyi_search_hot_keyword">http://sdk.boetech.cn/api/BoyiSdk/keywords</string>
+    <string name="boyi_search_keyword_recommend">最近热词</string>
+    <string name="boyi_search_publish_author">传统名家作者</string>
+    <string name="boyi_search_publish_recommend">出版小说热搜</string>
+    <string name="boyi_sex_boy">我是男神</string>
+    <string name="boyi_sex_girl">我是女神</string>
+    <string name="boyi_sex_recommand">我们会根据你的性别为你推荐不同的书籍</string>
+    <string name="boyi_sex_title">请选择你的性别</string>
+    <string name="boyi_share_qq">qq空间</string>
+    <string name="boyi_share_webchat">朋友圈</string>
+    <string name="boyi_shelf_help_text">尊敬的读者您好，您在阅读过程中遇到的疑难问题，都可致电我们的投诉及建议热线:   4000858737</string>
+    <string name="boyi_shelf_notify">公告：</string>
+    <string name="boyi_small_text_size">12sp</string>
+    <string name="boyi_suggest_feedback">问题反馈</string>
+    <string name="boyi_suggest_send_ok">感谢您的宝贵意见，我们会更加努力为您提供更好的阅读体验</string>
+    <string name="boyi_suggest_thanks">谢谢您的宝贵意见，我们会更加努力的！</string>
+    <string name="boyi_title_about">关于</string>
+    <string name="boyi_title_bookshelf">书架</string>
+    <string name="boyi_title_bookstore">书城</string>
+    <string name="boyi_title_browswer_book">导入书籍</string>
+    <string name="boyi_title_consume">我的消费</string>
+    <string name="boyi_title_filebrowser">导入书籍</string>
+    <string name="boyi_title_login">账号登录</string>
+    <string name="boyi_title_main_sign">每日签到</string>
+    <string name="boyi_title_message">我的消息</string>
+    <string name="boyi_title_modify_password">修改密码</string>
+    <string name="boyi_title_pop_app_update">版本更新</string>
+    <string name="boyi_title_recharge">快速支付</string>
+    <string name="boyi_title_setting">设置</string>
+    <string name="boyi_title_suggest">个人中心</string>
+    <string name="boyi_title_user">用户</string>
+    <string name="boyi_title_user_activity">我的活动</string>
+    <string name="boyi_title_user_attention">我的关注</string>
+    <string name="boyi_title_user_attention_detail">关注详情</string>
+    <string name="boyi_title_user_fans">我的粉丝</string>
+    <string name="boyi_title_user_fans_detail">粉丝详情</string>
+    <string name="boyi_title_user_gift">我的礼物</string>
+    <string name="boyi_title_user_info">我的资料</string>
+    <string name="boyi_title_user_mission">我的任务</string>
+    <string name="boyi_user_attention">关注</string>
+    <string name="boyi_user_attention_empty">赶紧去关注喜欢的作者吧</string>
+    <string name="boyi_user_break">退出软件</string>
+    <string name="boyi_user_buy">消费说明</string>
+    <string name="boyi_user_fans">粉丝</string>
+    <string name="boyi_user_fans_empty">您还没有粉丝</string>
+    <string name="boyi_user_game">热推游戏</string>
+    <string name="boyi_user_geft">精选推荐</string>
+    <string name="boyi_user_help">帮助中心</string>
+    <string name="boyi_user_info_binded">已绑定</string>
+    <string name="boyi_user_info_change">切换账号</string>
+    <string name="boyi_user_info_id">ID</string>
+    <string name="boyi_user_info_modify">修改</string>
+    <string name="boyi_user_info_modify_pwd">修改密码</string>
+    <string name="boyi_user_info_nickname">昵称</string>
+    <string name="boyi_user_info_phone_bind">手机号绑定</string>
+    <string name="boyi_user_info_save">保存</string>
+    <string name="boyi_user_info_sex">性别</string>
+    <string name="boyi_user_info_signature">签名</string>
+    <string name="boyi_user_info_unbind">绑定</string>
+    <string name="boyi_user_opinion_title">意见反馈</string>
+    <string name="boyi_user_our">关于我们</string>
+    <string name="boyi_user_setting">系统设置</string>
+    <string name="boyi_web_error">请检查网络是否连接</string>
+    <string name="boyi_web_refresh">刷新</string>
+    <string name="cancel">取消</string>
+    <string name="cm_user_telephone_charge_order">3.书和计费由中国移动提供，用话费账户进行付费，部分用户每天话费的费用可能受到10086以中国移动和阅读业务的温馨提示，若有异议请联系客服。</string>
+    <string name="delete">删除</string>
+    <string name="delete_cache">您确定清除所有缓存吗？</string>
+    <string name="douban">豆瓣</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">邮件</string>
+    <string name="evernote">印象笔记</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <string name="finish">完成</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="googleplus">Google+</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string formatted="false" name="instapager_login_html">
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+&lt;meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+&lt;meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+&lt;title>%s&lt;/title>
+&lt;style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+&lt;/style>
+&lt;/head>
+
+&lt;body>
+&lt;script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    return true;
+}
+&lt;/script>
+&lt;form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+&lt;div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ &lt;input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/>
+ &lt;input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ &lt;input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+&lt;/div>
+&lt;p>&lt;input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/>&lt;/p>
+&lt;/form>
+&lt;/body>
+&lt;/html>
+</string>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">邮箱</string>
+    <string name="instapaper_login">登录</string>
+    <string name="instapaper_logining">登录中…</string>
+    <string name="instapaper_pwd">密码</string>
+    <string name="kaixin">开心网</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="linkedin">领英</string>
+    <string name="list_friends">%s的朋友</string>
+    <string name="mingdao">明道</string>
+    <string name="mingdao_share_content">网页分享</string>
+    <string name="multi_share">图文分享</string>
+    <string name="neteasemicroblog">网易微博</string>
+    <string name="no_net">网速不给力，请稍候重试~</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="onekey_login_remind_eight">2.您在登录的时候系统可能会提示发一条免费短信到运营商，请确定是否点击“允许”或“发送”，如果选择了“拒绝“或者什么也没有选择。则会导致登录失败；</string>
+    <string name="onekey_login_remind_five">"登录失败解决办法</string>
+    <string name="onekey_login_remind_four">""</string>
+    <string name="onekey_login_remind_nine">3.请确定手机是否安装了sim卡，并且sim卡是可以正常打电话或者发短息；</string>
+    <string name="onekey_login_remind_one">1. 为了方便使用，系统会发送一条短信到运营商完成登录，该短信完全免费。</string>
+    <string name="onekey_login_remind_seven">1.是否安装了安全软件，并且检查针对本阅读软件设置了“信任该程序”的权限，如果设置为“不信任”则会导致登录失败；</string>
+    <string name="onekey_login_remind_six">"如果您一直登录失败，请首先检查是否存在如下几种情况：</string>
+    <string name="onekey_login_remind_ten">4.请确定手机是否双卡，并且主卡槽上的sim卡是可以正常打电话或者发短信。如果有欠费停机的卡，建议将该欠费的卡从卡槽中拔出。</string>
+    <string name="onekey_login_remind_three">3. 部分手机（如小米、魅族）及安全软件（如乐安全）会提示用户是否允许发送短信，请选择允许，该短信仍为免费。</string>
+    <string name="onekey_login_remind_two">2. 我们非常重视您的信息安全，该短信直接发送给运营商，我们会确保您的信息不泄露给第三方。</string>
+    <string name="order_description">1.已订购的章节或图书再次阅读无需重复付费，以目录章节为准。</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="pocket">Pocket</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="qzone">QQ空间</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="renren">人人网</string>
+    <string name="select">全选</string>
+    <string name="select_a_friend">请选择一个朋友</string>
+    <string name="select_one_plat_at_least">请选择一个目标平台</string>
+    <string name="shake2share">摇晃手机！</string>
+    <string name="share">分享</string>
+    <string name="share_canceled">分享已取消</string>
+    <string name="share_completed">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_to">分享到</string>
+    <string name="share_to_mingdao">分享到明道</string>
+    <string name="share_to_qq">分享到QQ</string>
+    <string name="share_to_qzone">分享到QQ空间</string>
+    <string name="share_to_qzone_default">来自%s的分享</string>
+    <string name="sharing">分享操作正在后台进行…</string>
+    <string name="shortmessage">信息</string>
+    <string name="sinaweibo">新浪微博</string>
+    <string name="sohumicroblog">搜狐微博</string>
+    <string name="sohusuishenkan">搜狐随身看</string>
+    <string name="tencentweibo">腾讯微博</string>
+    <string name="time_error">时间有问题</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="url_account_create">http://testsdk.boetech.cn/api/BoyiSdk/userRegister</string>
+    <string name="url_account_modify">http://boyue.boetech.cn/api/account/modify</string>
+    <string name="url_attention_cancel">http://boyue.boetech.cn/api/user/unfollow</string>
+    <string name="url_attention_to">http://boyue.boetech.cn/api/user/attention</string>
+    <string name="url_book_buy_records">http://boyue.boetech.cn/api/order/purchaseRecords</string>
+    <string name="url_book_conver">http://testsdk.boetech.cn/Uploads/</string>
+    <string name="url_book_detail">http://boyue.boetech.cn/api/article/bookInfo</string>
+    <string name="url_book_direciory">http://testsdk.boetech.cn/api/Book/chapterList</string>
+    <string name="url_book_placetongji">http://testsdk.boetech.cn/api/boyiSdk/placetongji</string>
+    <string name="url_book_recommand">http://testsdk.boetech.cn/api/BoyiSdk/bookTuijianNums</string>
+    <string name="url_book_search">http://wap.cmread.com/r/p/SearchInterface.jsp</string>
+    <string name="url_book_sync">http://boyue.boetech.cn/api/article/syncBooks</string>
+    <string name="url_book_update">http://boyue.boetech.cn/api/article/update</string>
+    <string name="url_bookstore">http://testsdk.boetech.cn/index/index</string>
+    <string name="url_bookstore_recommend">http://boyue.boetech.cn/index.php/Home/Index/index.html</string>
+    <string name="url_bookstore_skip">http://testsdk.boetech.cn</string>
+    <string name="url_chapter">http://boyue.boetech.cn/api/article/chapterDetail</string>
+    <string name="url_chapter_buy">http://boyue.boetech.cn/api/order/placed</string>
+    <string name="url_contents">http://boyue.boetech.cn/api/article/getChapters</string>
+    <string name="url_detail_book">http://testsdk.boetech.cn/api/Book/bookinfo</string>
+    <string name="url_detail_cm_book">http://wap.cmread.com/r/p/viewdata.jsp</string>
+    <string name="url_eveyday_commented">http://testsdk.boetech.cn/api/BoyiSdk/bookTuijianNums</string>
+    <string name="url_fans_back">http://boyue.boetech.cn/api/user/pullBlack</string>
+    <string name="url_fans_books">http://boyue.boetech.cn/api/user/fansBook</string>
+    <string name="url_game_book">http://testsdk.boetech.cn/api/Game/gameList/p</string>
+    <string name="url_give_icon">http://boyue.boetech.cn/api/user/giveCoin</string>
+    <string name="url_goboesdk_entry">http://testsdk.boetech.cn/api/BoyiSdk/loginRukou</string>
+    <string name="url_gostore_time">http://testsdk.boetech.cn/api/boyiSdk/loginLog</string>
+    <string name="url_login">http://boyue.boetech.cn/api/account/login</string>
+    <string name="url_message_delete">http://boyue.boetech.cn/api/message/del</string>
+    <string name="url_message_send">http://boyue.boetech.cn/api/message/send</string>
+    <string name="url_message_update">http://boyue.boetech.cn/api/message/receive</string>
+    <string name="url_notice">http://testsdk.boetech.cn/api/Notice/index</string>
+    <string name="url_password_modify">http://boyue.boetech.cn/api/account/updatePassword</string>
+    <string name="url_phone_authcode">http://boyue.boetech.cn/api/account/sendAuthCode</string>
+    <string name="url_phone_bind">http://boyue.boetech.cn/api/account/checkAuthCode</string>
+    <string name="url_post_conver_error">http://testsdk.boetech.cn/api/Other/advice</string>
+    <string name="url_qovestore_bt2">http://testsdk.boetech.cn/book/newbooklist</string>
+    <string name="url_qovestore_bt3">http://testsdk.boetech.cn/Category/index</string>
+    <string name="url_qovestore_bt4">http://testsdk.boetech.cn/index/newbook</string>
+    <string name="url_read_book">http://testsdk.boetech.cn/api/BoyiSdk/readChapter</string>
+    <string name="url_read_buybook">http://testsdk.boetech.cn/api/boyiSdk/readVipChapter</string>
+    <string name="url_recharge_records">http://boyue.boetech.cn/api/order/topupRecords</string>
+    <string name="url_search_hotkeyword">http://testsdk.boetech.cn/api/boyiSdk/keywords</string>
+    <string name="url_search_recommend">http://testsdk.boetech.cn/api/Search/serchBook/qdid/baiyueshucheng/yysid/1/</string>
+    <string name="url_sms_pay">http://boyue.boetech.cn/api/order/getPrivateKey</string>
+    <string name="url_suggestion_send">http://boyue.boetech.cn/api/user/opinion</string>
+    <string name="url_updata_book">http://testsdk.boetech.cn/api/Book/isUpdate</string>
+    <string name="url_update_payinfo">http://boyue.boetech.cn/api/update/init</string>
+    <string name="url_update_progress">http://boyue.boetech.cn/api/account/readProgress</string>
+    <string name="url_update_userinfo">http://boyue.boetech.cn/api/update/userInfo</string>
+    <string name="url_user_attention">http://boyue.boetech.cn/api/user/attList</string>
+    <string name="url_user_fans">http://boyue.boetech.cn/api/user/fans</string>
+    <string name="url_user_regist">http://boyue.boetech.cn/api/user/registration</string>
+    <string name="url_user_timelong">http://testsdk.boetech.cn/api/boyiSdk/loginOutLong</string>
+    <string name="url_usercenter_freeread">http://testsdk.boetech.cn/user/choiceness</string>
+    <string name="url_usercenter_gift">http://testsdk.boetech.cn/user/gift</string>
+    <string name="url_web_pay">http://boyue.boetech.cn/api/order/topup</string>
+    <string name="url_xn_maptable">http://testsdk.boetech.cn/api/Channel/mappingTable</string>
+    <string name="url_xnchapter">http://testsdk.boetech.cn/api/ReadBook/readContent/aid/</string>
+    <string name="url_xncontents">http://testsdk.boetech.cn/api/ReadBook/readBooklist/aid/</string>
+    <string name="use_login_button">请改用“登录”按钮</string>
+    <string name="user_sug">2.已购买本书任意章节者后序购买不再提示。</string>
+    <string name="vkontakte">VK</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="wechat">微信好友</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="wechatfavorite">微信收藏</string>
+    <string name="wechatmoments">微信朋友圈</string>
+    <string name="weibo_oauth_regiseter">应用授权</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="yixin">易信</string>
+    <string name="yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="yixinmoments">易信朋友圈</string>
+    <string name="youdao">有道云笔记</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MMEditText">
+        <item name="android:textSize">@dimen/textsize_normal</item>
+        <item name="android:textColorHint">@color/boyi_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/boyi_edittext_bg_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MMLine">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MMLineEditPass" parent="@style/MMLineEditText">
+        <item name="android:password">true</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="MMLineEditText" parent="@style/MMEditText">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="Theme.AppStartLoadTranslucent" parent="android:Theme.Holo.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="coverGridView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:columnWidth">90dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:horizontalSpacing">45dip</item>
+        <item name="android:numColumns">4</item>
+        <item name="android:scrollbars">none</item>
+<!--         <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginTop">18.5dip</item>
+        <item name="android:layout_marginRight">15dip</item> -->
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">24dip</item>
+    </style>
+    <style name="exit_pop_anim">
+         <item name="android:windowEnterAnimation">@anim/boyi_move_pop_show</item>
+         <item name="android:windowExitAnimation">@anim/boyi_move_pop_hide</item>
+     </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowNoTitle">true</item>   
+        <item name="android:windowBackground">@drawable/akpay_lot_download_cicle</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+    </style>
+    <style name="main_bar">
+        <!-- <item name="android:background">@drawable/main_bar_bg</item> -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45.5dp</item>
+    </style>
+    <style name="main_tab_text_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/boyi_main_tab_text_color</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginBottom">1.0dip</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="mypopwindow_anim_style">
+    <item name="android:windowEnterAnimation">@anim/popupwindow_animation_show</item>
+    <item name="android:windowExitAnimation">@anim/popupwindow_animation_hide</item>
+    </style>
+    <style name="progressBarHorizontal_color" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/boyi_seekbar_progress</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">5dip</item>
+    </style>
+    <style name="text_btn_normal">
+         <item name="android:textColor">@color/boyi_text_color_black_blue_selector</item>
+         <item name="android:textSize">@dimen/textsize_normal</item>
+         <item name="android:gravity">center</item>
+     </style>
+    <style name="text_flag_01">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">27.3dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="trim_pop_anim">
+         <item name="android:windowEnterAnimation">@anim/boyi_trim_pop_show</item>
+         <item name="android:windowExitAnimation">@anim/boyi_move_pop_hide</item>
+     </style>
+</resources>

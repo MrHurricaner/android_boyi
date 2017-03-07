@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/boyi_common_top_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16.7dp"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:id="@+id/sousuokuang_ll"
+            android:layout_width="0dp"
+            android:layout_height="48.7dp"
+            android:layout_weight="3"
+            android:background="@drawable/sousuokuang"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp" >
+
+            <TextView
+                android:id="@+id/show_keyword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关键字"
+                android:textColor="#7f7f7f"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_keyword"
+                android:layout_width="8.3dp"
+                android:layout_height="5.3dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/jiantou" />
+
+            <EditText
+                android:id="@+id/et_keyword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:background="@null"
+                android:textColor="#7f7f7f"
+                android:textSize="13.3sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_rl"
+            android:layout_width="0dp"
+            android:layout_height="48.7dp"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_white_to_blue_selector" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/search_search" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="29.3dp"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="2.3dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="1.5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/red" />
+
+            <TextView
+                android:id="@+id/search_result_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/xuxian" />
+
+        <ListView
+            android:id="@+id/search_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="11dp"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/listview_selector"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recomment_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/hotkeyword_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="29.3dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="2.3dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="1.5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/red" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="热词推荐"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginRight="16.7dp"
+                android:layout_marginTop="13.3dp"
+                android:background="@drawable/xuxian" />
+
+            <com.boyiqove.view.FlowLayout
+                android:id="@+id/search_flowlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginRight="16.7dp"
+                android:layout_marginTop="14dp" 
+               >
+            </com.boyiqove.view.FlowLayout>
+            <RelativeLayout
+                android:id="@+id/hotkeyword_jiazai"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginRight="16.7dp"
+                android:layout_marginTop="14dp"
+                android:visibility="gone"
+                >
+                <ImageView 
+                    android:id="@+id/hotkeyword_jiazai_imageView"
+                    android:layout_centerInParent="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/boy_jiazai"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grayview_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/boyi_dark_gray" >
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hotsearch_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="2.3dp"
+                    android:layout_height="18dp"
+                    android:layout_marginTop="1.5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/green" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="热搜推荐"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginRight="16.7dp"
+                android:layout_marginTop="12.7dp"
+                android:background="@drawable/xuxian" />
+
+            <ListView
+                android:id="@+id/recomment_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:listSelector="@drawable/listview_selector" />
+            <RelativeLayout 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/hotsearch_jiazai"
+                android:visibility="gone">
+                <ImageView
+                    android:id="@+id/hotsearch_jiazai_imageView"
+                    android:layout_centerInParent="true"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/boy_jiazai"
+                    
+                    />
+            </RelativeLayout>
+
+            <com.boyiqove.ui.storeadapter.ScrollListView
+                android:id="@+id/search_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/boyi_gray"
+                android:dividerHeight="2dp"
+                android:visibility="gone" >
+            </com.boyiqove.ui.storeadapter.ScrollListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

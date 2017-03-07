@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3F5"
+    android:orientation="vertical" >
+
+    <include layout="@layout/xy_common_activity_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.7dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:paddingLeft="16.3dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/accept_msg"
+                android:textColor="#565656"
+                android:textSize="16sp" />
+
+            <com.xiaoyan.util.MyButton
+                android:id="@+id/accept_msg"
+                android:layout_marginTop="8.5dp"
+                android:layout_width="80dp"
+                android:layout_height="62dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <com.boyiqove.view.DashedLine
+            android:layout_marginLeft="16.3dp"
+            android:layout_marginRight="16.3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.02dip"
+            android:textColor="#DDD8D5" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:paddingLeft="16.3dp">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/auto_update"
+                android:textColor="#565656"
+                android:textSize="16sp" />
+
+           <com.xiaoyan.util.MyButton
+                android:id="@+id/update_version"
+                 android:layout_marginTop="8.5dp"
+                android:layout_width="80dp"
+                android:layout_height="62dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <com.boyiqove.view.DashedLine
+            android:layout_marginLeft="16.3dp"
+            android:layout_marginRight="16.3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.02dip"
+            android:textColor="#DDD8D5" />
+
+        <RelativeLayout
+            android:id="@+id/shoudong_update_rl"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.3dp"
+            android:paddingRight="16.3dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/shoudong_update"
+                android:textColor="#565656"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/shoudong_update"
+                android:visibility="gone"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="26dp"
+                android:src="@drawable/boy_jiazai" />
+        </RelativeLayout>
+
+        <com.boyiqove.view.DashedLine
+            android:layout_marginLeft="16.3dp"
+            android:layout_marginRight="16.3dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.02dip"
+            android:textColor="#DDD8D5" />
+
+        <RelativeLayout
+            android:id="@+id/clear_cache"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16.3dp"
+            android:paddingRight="16.3dp" >
+
+            <TextView
+                android:id="@+id/tv_cache_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/clear_cache"
+                android:textColor="#565656"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

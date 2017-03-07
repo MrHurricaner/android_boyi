@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F0F3F5">
+    <include 
+        layout="@layout/xy_common_activity_title"
+        />
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <TextView 
+        android:paddingTop="16.3dp"
+        android:paddingLeft="16.3dp"
+        android:paddingRight="16.3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#525554"
+        android:textSize="16.7sp"
+        android:lineSpacingExtra="8dp"
+        android:text="@string/consume_text"/>
+    </ScrollView>
+    
+
+</LinearLayout>

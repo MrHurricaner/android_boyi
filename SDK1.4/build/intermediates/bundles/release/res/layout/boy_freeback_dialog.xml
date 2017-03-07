@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/boyi_black_touming2"
+    android:gravity="center_horizontal|center_vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="228dip"
+        android:layout_height="124.67dp"
+        android:background="@drawable/boyi_cricle_linearlayout"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal|center_vertical"
+        >
+	
+    <TextView   
+        android:id="@+id/error_freeback_tv"  
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content" 
+        android:layout_margin="5dip" 
+		android:layout_gravity="center_vertical|center_horizontal"
+        android:text="提交成功我们会尽快处理!" 
+        android:textColor="@color/boyi_textview_green_color"
+        android:textSize="16sp"/> 
+
+</LinearLayout>
+
+
+</LinearLayout>

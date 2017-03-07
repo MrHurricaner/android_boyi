@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F3F5">
+    <include 
+        layout="@layout/xy_common_activity_title"
+        />
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_marginTop="6.7dp"
+        android:scrollbars="none"
+        android:listSelector="#00000000"
+        android:cacheColorHint="#00000000" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ExpandableListView>
+    
+
+</LinearLayout>

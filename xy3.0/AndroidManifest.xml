@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xn.xiaoyan"
+    android:versionCode="2"
+    android:versionName="2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> 
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/boyi_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+     <activity
+            android:name="com.xn.xiaoyan.SpashActivity2"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppStartLoadTranslucent"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xn.xiaoyan.SpashActivity"
+            android:screenOrientation="portrait"/>
+<!--             android:launchMode="singleTask"  
+            android:taskAffinity=""  
+            android:excludeFromRecents="true" -->
+        <activity
+            android:name="com.xn.xiaoyan.MainActivity"
+            android:theme="@style/Theme.AppStartLoadTranslucent"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.boyiqove.ui.bookstore.StoreMain"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.boyiqove.ui.bookqove.MoreDirectory"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light" />
+        <activity
+            android:name="com.boyiqove.ui.bookstore.BookDetail"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:launchMode="singleTop"
+             />
+        <activity android:name="com.boyiqove.ui.bookstore.KeyBookDetail" />
+        <activity
+            android:name="com.boyiqove.ui.bookstore.StoreTitleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boyiqove.ui.bookstore.BookDetailpinglun"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boyiqove.ui.bookshelf.OnlineReadingActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.boyiqove.ui.bookshelf.OnlineContentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.boyiqove.ui.storeutil.CMChargeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.boyiqove.ui.bookshelf.PaymentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.boyiqove.ui.bookstore.LocalSearchActivity"
+            android:screenOrientation="portrait" 
+            android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity
+            android:name="com.boyiqove.ui.bookshelf.OneKeyFastActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.user.OpinionUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.user.GiftUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.user.GameUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boyiqove.ui.bookshelf.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.ConsumeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.HelppingActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.xn.xiaoyan.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.UserMsgActivty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boyiqove.ui.bookshelf.PageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.boyiqove.ui.bookstore.StoreMain2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.user.GiftActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.user.FreeReadActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.xn.xiaoyan.SecondActivity"
+            android:screenOrientation="portrait" />
+        
+        
+        <service
+            android:name="com.xn.xiaoyan.service.XiaoyanService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.boyiqove.service.BoyiServicexiaoyan" />
+            </intent-filter>
+        </service>
+        <service android:name="com.boyiqove.service.BoyiUpdateService" android:exported="true" />
+        <!-- 开机自启动广播接收者，请求更新 -->
+        
+        <receiver android:name="com.xn.xiaoyan.receiver.XyUpdateReceiver" 
+            android:persistent="true">
+          <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        
+        
+        <!-- <receiver android:name="com.xn.xiaoyan.receiver.XyUpdateReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver> -->
+        <service android:name="com.xn.xiaoyan.services.XyServices"></service>
+
+
+        <!-- 友盟自动更新 -->
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" >
+        </service>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- 友盟反馈 -->
+        <activity android:name="com.umeng.fb.ConversationActivity" />
+        <!-- 友盟自动更新 -->
+
+        <meta-data
+            android:name="channel_num"
+            android:value="baiyueshucheng" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="550194aafd98c5bec600035d" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="360shoujizhushou" />
+    </application>
+
+</manifest>

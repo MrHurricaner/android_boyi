@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+			<corners android:radius="5dip" />
+			<gradient android:startColor="#ffeaeceb"
+				android:centerColor="#ffeaeceb" android:centerY="0.75"
+				android:endColor="#ffeaeceb" android:angle="270" />
+		</shape>
+    </item>
+     <item android:id="@android:id/secondaryProgress">  <!--  //如果有2级进度，需要定义这一项,gradient定义的是渐变色，clip如果没有的话，进度条会充满整个Progessbar -->
+    <clip>
+      <shape>
+        <corners android:radius="5dip" />
+        <gradient android:angle="270" android:centerColor="#99CC99"
+          android:centerY="0.75" android:endColor="#99CC99"
+          android:startColor="#99CC99" />
+      </shape>
+    </clip>
+  </item>
+    
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/corner_bg" >
+            <shape>
+				<corners android:radius="5dip" />
+				
+				<gradient android:startColor="#00be8e"
+					android:centerColor="#00be8e" android:centerY="0.75"
+					android:endColor="#00be8e" android:angle="270" />
+			</shape>
+        </clip>
+    </item>
+</layer-list>

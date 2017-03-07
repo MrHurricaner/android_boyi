@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/boyi_white"
+    >
+<LinearLayout 
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:orientation="horizontal" 
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="16.7dp"
+        android:layout_marginRight="16.7dp"
+        >
+       
+        <TextView 
+            android:id="@+id/actor_nc"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="小名"
+            android:textColor="#5fa2e0"
+            android:textSize="13.3sp"
+            />
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="发表了评论"
+            android:textColor="#b0b0b0"
+            android:textSize="13.3sp"
+            android:layout_toRightOf="@+id/actor_nc"
+            android:layout_marginLeft="4dp"
+            />
+        <TextView 
+            android:id="@+id/content_data"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="03—9 "
+            android:textColor="#b0b0b0"
+            android:textSize="13.3sp"
+            android:layout_alignParentRight="true"
+            />
+        
+         <!-- <TextView 
+            android:layout_toRightOf="@+id/actor_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="时间"
+            android:textColor="@color/dark_black"
+            /> -->
+         
+	        		<!-- <View 
+	        		    android:id="@+id/leftview3"
+	        		    android:layout_height="match_parent"
+	        		    android:layout_width="1dp"
+	        		    android:background="@color/boyi_gray"
+	        		    />
+	        		<View 
+	        		    
+	        		    android:layout_height="1dp"
+	        		    android:layout_alignBottom="@+id/leftview3"
+	        		    android:layout_width="match_parent"
+	        		    android:background="@color/boyi_gray"
+	        		    />
+	        		<View 
+	        		  android:id="@+id/topview3"
+	        		    android:layout_height="1dp"
+	        		    android:layout_width="match_parent"
+	        		     android:background="@color/boyi_gray"
+	        		    />
+	        		
+	        		<View 
+	        		    android:layout_height="match_parent"	        		    
+	        		    android:layout_alignRight="@+id/topview3"
+	        		    android:layout_width="1dp"
+	        		    android:background="@color/boyi_gray"
+	        		    /> -->
+    </RelativeLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:minHeight="35dp"
+          android:orientation="vertical"
+           >
+
+        <!-- <View 
+	        		    android:id="@+id/leftview4"
+	        		    android:layout_height="match_parent"
+	        		    android:layout_width="1dp"
+	        		    android:background="@color/boyi_gray"
+	        		    />
+	        		<View 
+	        		    android:id="@+id/topview4"
+	        		    android:layout_height="1dp"
+	        		    android:layout_alignBottom="@+id/leftview4"
+	        		    android:layout_width="match_parent"
+	        		    android:background="@color/boyi_gray"
+	        		    />
+	        		
+	        		
+	        		<View 
+	        		    android:layout_height="match_parent"	        		    
+	        		    android:layout_alignRight="@+id/topview4"
+	        		    android:layout_width="1dp"
+	        		    android:background="@color/boyi_gray"
+	        		    /> -->
+        <TextView 
+            android:layout_marginLeft="16.7dp"
+            android:layout_marginRight="16.7dp"
+            android:layout_marginTop="8dip"
+            android:id="@+id/content_pl"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:text="不错,我非常的喜欢因为我喜欢的的 极速hi这本塑化剂啊啊啊呀买碟"           
+            android:textColor="@color/boyi_black"
+            />
+        
+    </LinearLayout>
+    <com.boyiqove.view.DashedLine
+    android:layout_height="0.03dip"
+    android:layout_width="match_parent"
+    android:textColor="#f0eeed"
+    android:layout_marginLeft="16.7dp"
+    android:layout_marginRight="16.7dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    />
+</LinearLayout>
+</LinearLayout>

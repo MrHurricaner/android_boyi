@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/boyi_white"
+     >
+    
+     <include 
+        layout="@layout/boyi_detail_top_title"
+        />
+
+       <ListView
+	         android:layout_marginTop="6dp"
+	         			android:layout_height="match_parent"
+	        		    android:layout_width="match_parent"       		    
+	        		    android:id="@+id/keybook_lv"
+	        		     android:divider="#00000000"
+	        ></ListView> 
+	       
+   
+
+</LinearLayout>

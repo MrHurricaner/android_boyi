@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_popupWindow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/read_action_top_height"
+        android:background="@color/boyi_black_touming3" >
+
+        <ImageButton
+            android:id="@+id/read_back_ib"
+            android:layout_height="22dp"
+		    android:layout_width="22.7dip"
+		    android:layout_marginLeft="16.7dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/boe_back_button" />
+		<LinearLayout 
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+		    android:id="@+id/read_menu_iv"
+		    android:paddingLeft="3dp"
+		    >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="23dip"
+            android:layout_marginRight="25.3dip"
+            android:background="@drawable/by_menu_title"
+            android:scaleType="centerInside"
+            />
+        </LinearLayout>
+	 <ImageView 	     
+            android:id="@+id/read_download_iv"
+            android:layout_width="20dip"
+            android:layout_height="23dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="38.6dip"
+            android:layout_toLeftOf="@id/read_menu_iv"
+            android:background="@drawable/read_sett_download_no"
+            />
+
+        <ImageView
+            android:id="@+id/read_auto_buy_iv"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="92.3dip"
+            android:layout_toLeftOf="@+id/read_menu_iv"
+            android:background="@drawable/read_auto_buy_yes" />
+       
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/rl_popupWindow"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17.5dip"
+        >
+        <LinearLayout
+         android:layout_width="105dp"
+         android:layout_height="wrap_content"
+         android:background="@drawable/read_set_menu"
+         android:orientation="vertical"
+         android:id="@+id/menu_ll"
+         android:visibility="gone"
+         >
+       <LinearLayout
+        android:id="@+id/enter_bookshelf"
+        android:layout_marginLeft="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView 
+            android:layout_width="17dp"
+            android:layout_height="14dp"
+            android:src="@drawable/bookshelf"
+            android:layout_marginRight="10dp"/>
+       <TextView 
+           android:id="@+id/text_go"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:textColor="#8a8a8a"
+          android:textSize="13sp"
+          android:text="看书架"/>  
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_bookstore"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+       <View
+        android:layout_marginLeft="3.3dp"
+        android:layout_marginRight="3.3dp"
+        android:layout_width="match_parent"
+        android:background="#d3d3d3"
+        android:layout_height="1dp"
+        />
+    <LinearLayout
+        android:id="@+id/enter_bookstore" 
+        android:gravity="center_vertical"
+        android:layout_marginLeft="14dp"
+        android:layout_width="105dp"
+        android:layout_height="45dp">
+      <ImageView 
+            android:layout_width="17dp"
+            android:layout_height="14dp"
+            android:src="@drawable/enter_boostore"
+            android:layout_marginRight="10dp"
+            />
+      <TextView
+          android:id="@+id/enter_bookstore" 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="逛书城"
+          android:textSize="13sp"
+          android:textColor="#8a8a8a"
+          /> 
+          </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+    </RelativeLayout>
+  
+ 
+	<include 
+	    layout="@layout/boyi_read_action_bottom" />
+	
+    <include layout="@layout/boyi_read_action_set" 
+        android:visibility="gone"
+        />
+
+    <include layout="@layout/boyi_read_action_progress" />
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- 头部菜单及样式 ####-->
+    <style name="main_bar">
+        <!-- <item name="android:background">@drawable/main_bar_bg</item> -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45.5dp</item>
+    </style>
+    <style name="main_tab_text_style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/boyi_main_tab_text_color</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_marginTop">2.0dip</item>
+        <item name="android:layout_marginBottom">1.0dip</item>
+        <item name="android:shadowColor">#ffffffff</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    
+    
+     <style name="Theme.AppStartLoadTranslucent" parent="android:Theme.Holo.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+     <style name="coverGridView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:columnWidth">90dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:horizontalSpacing">45dip</item>
+        <item name="android:numColumns">4</item>
+        <item name="android:scrollbars">none</item>
+<!--         <item name="android:layout_marginLeft">15dip</item>
+        <item name="android:layout_marginTop">18.5dip</item>
+        <item name="android:layout_marginRight">15dip</item> -->
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">24dip</item>
+    </style>
+    
+     <style name="text_btn_normal">
+         <item name="android:textColor">@color/boyi_text_color_black_blue_selector</item>
+         <item name="android:textSize">@dimen/textsize_normal</item>
+         <item name="android:gravity">center</item>
+     </style>
+     
+     
+     <style name="exit_pop_anim">
+         <item name="android:windowEnterAnimation">@anim/boyi_move_pop_show</item>
+         <item name="android:windowExitAnimation">@anim/boyi_move_pop_hide</item>
+     </style>
+     
+     <style name="trim_pop_anim">
+         <item name="android:windowEnterAnimation">@anim/boyi_trim_pop_show</item>
+         <item name="android:windowExitAnimation">@anim/boyi_move_pop_hide</item>
+     </style>
+     
+     
+     
+    <!-- Edit Style -->
+    <style name="MMEditText">
+        <item name="android:textSize">@dimen/textsize_normal</item>
+        <item name="android:textColorHint">@color/boyi_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/boyi_edittext_bg_selector</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="MMLine">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MMLineEditText" parent="@style/MMEditText">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="MMLineEditPass" parent="@style/MMLineEditText">
+        <item name="android:password">true</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <!-- 自定义loading dialog -->  
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">  
+        <item name="android:windowFrame">@null</item>  
+        <item name="android:windowNoTitle">true</item>   
+        <item name="android:windowBackground">@drawable/akpay_lot_download_cicle</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+    </style>
+    <!--弹出popupwindow样式-->
+    <style name="mypopwindow_anim_style">
+    <item name="android:windowEnterAnimation">@anim/popupwindow_animation_show</item>
+    <item name="android:windowExitAnimation">@anim/popupwindow_animation_hide</item>
+    </style>
+    <!-- 指定显示的动画xml -->
+
+<!-- 自定义下载进度条 -->
+    <style name="progressBarHorizontal_color" 
+        parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/boyi_seekbar_progress</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">5dip</item>
+    </style>
+    
+    
+ <!-- 指定消失的动画xml -->
+    <style name="text_flag_01">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">27.3dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    
+</resources>

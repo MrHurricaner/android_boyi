@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    <LinearLayout 
+        android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="14dp"
+            android:orientation="horizontal" 
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/game_hehe1"
+                android:paddingRight="13dp"
+                android:paddingTop="3dp"
+                >
+
+                <com.boyiqove.library.volley.toolbox.NetworkImageView
+                    android:id="@+id/everyday_cover_book"
+                    android:scaleType="fitCenter"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    />
+            </RelativeLayout>
+			<LinearLayout
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_toRightOf="@+id/game_hehe1"
+			    android:layout_toLeftOf="@+id/bt_ll"
+			    android:orientation="vertical"
+			    android:paddingRight="24dp" >
+
+			    <TextView
+			        android:id="@+id/user_geft_item_name"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignParentTop="true"
+			        android:layout_marginTop="2dip"
+			        android:text="游戏"
+			        android:textColor="#565656"
+			        android:textSize="@dimen/textsize_small" />
+
+
+
+			    <RelativeLayout
+			        android:id="@+id/relativeLayout1"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="10dp"
+			        >
+
+			        <TextView
+			            android:id="@+id/user_stop"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_alignParentRight="true"
+			            android:textColor="#9f9f9f"
+			            android:textSize="@dimen/bookdetail_title"
+			            android:visibility="gone" />
+
+			        <TextView
+			            android:id="@+id/user_acother"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="200M    12万人下载"
+			            android:textColor="#9f9f9f"
+			            android:textSize="@dimen/bookdetail_title" />
+			    </RelativeLayout>
+
+			    <ProgressBar
+			        android:id="@+id/user_down_progress"
+			        style="@style/progressBarHorizontal_color"
+			        android:layout_width="match_parent"
+			        android:layout_height="2dp"
+			        android:layout_alignParentLeft="true"
+			        android:layout_marginTop="6dp"
+			        android:secondaryProgress="0"
+			        android:layout_below="@+id/relativeLayout1" />
+
+			    <TextView
+			        android:id="@+id/user_geft_item_Desc"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:ellipsize="end"
+			        android:maxLines="1"
+			        android:text="限号封测，"
+			        android:textColor="#8c8c8c"
+			        android:layout_marginTop="6dp"
+			        android:textSize="@dimen/bookdetail_title" />
+
+			</LinearLayout>
+            
+            <LinearLayout 
+                android:layout_height="70dp"
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/bt_ll"
+                >
+                <Button         
+                    android:id="@+id/user_game_bt"           
+                    android:layout_height="25dp"
+                    android:layout_width="44.7dp"
+                    android:text="下载"
+                    android:textColor="@color/white"
+                    android:textSize="11sp"
+                    android:background="@drawable/user_game_down"
+                    android:focusable="false"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+	    <com.boyiqove.view.DashedLine
+	    android:layout_height="0.03dip"
+	    android:layout_width="match_parent"
+	    android:textColor="#696969"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginBottom="10dp"
+	    />
+</LinearLayout>
+</LinearLayout>

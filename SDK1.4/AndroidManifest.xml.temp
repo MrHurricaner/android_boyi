@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.boyiqove"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    
+		<uses-permission android:name="android.permission.RECEIVE_SMS"/>  
+		<uses-permission android:name="android.permission.SEND_SMS"/>
+		<uses-permission android:name="android.permission.READ_SMS" />  
+		<uses-permission android:name="android.permission.WRITE_SMS" />
+		
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+   
+ <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.GET_TASKS" />
+ <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+
+ <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+ <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    
+ 	
+ 
+ 
+    <application
+        android:name="com.boyiqove.AppData"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.boyiqove.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppStartLoadTranslucent"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- ShareSDK分享的 -->
+        <activity
+ android:name="cn.sharesdk.framework.ShareSDKUIShell"
+ android:theme="@android:style/Theme.Translucent.NoTitleBar"
+ android:configChanges="keyboardHidden|orientation|screenSize"
+ android:screenOrientation="portrait"
+ android:windowSoftInputMode="stateHidden|adjustResize" >
+ <intent-filter>
+ <data android:scheme="tencent100371282" />
+ <action android:name="android.intent.action.VIEW" />
+ <category android:name="android.intent.category.BROWSABLE" />
+ <category android:name="android.intent.category.DEFAULT" />
+ </intent-filter>
+ </activity>
+ <!-- 微信朋友圈分享 
+        <activity    
+		    android:name="com.boyiqove.wxapi.WXShareActivity"  
+		    android:exported="true"  
+		    android:screenOrientation="portrait"   
+		    android:theme="@android:style/Theme.Translucent.NoTitleBar" />  
+        -->
+        <activity
+            android:name="com.boyiqove.MainActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.bookstore.OrderFromActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.boyiqove.ui.bookshelf.FileBrowserActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.boyiqove.ui.bookshelf.LocalReadingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout"
+            android:hardwareAccelerated="false" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.bookshelf.LocalContentsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.bookshelf.OnlineReadingActivity" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name="com.boyiqove.ui.bookshelf.OnlineContentsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.bookshelf.ReadSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.MessageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.ConsumeActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.AttentionActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.AttentionDetailActivity" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.FansActivity"
+            android:screenOrientation="portrait">
+        </activity>
+         <activity android:name="com.boyiqove.ui.user.FansDetailActivity" 
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan">
+        </activity>
+        
+        <activity android:name="com.boyiqove.ui.user.MissionActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.GiftActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.SugesstActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.RechargeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.RechargeDetailActivity" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.WebPayActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.AboutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.bookstore.BookDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.boyiqove.ui.user.LoginActivity"
+            android:screenOrientation="portrait" ></activity>
+        
+        <activity android:name="com.boyiqove.ui.user.UserInfoActivity" 
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.boyiqove.ui.user.PhoneBindActivity" 
+            android:screenOrientation="portrait"></activity>
+        <activity 
+            android:name="com.boyiqove.ui.user.OpinionActivity"
+            ></activity>
+        <activity 
+            android:name="com.boyiqove.ui.user.ModifyActivity"
+            ></activity>
+        <activity 
+            android:name="com.boyiqove.ui.bookstore.StoreDetailActivity"
+            ></activity>
+        <activity 
+            android:name="com.boyiqove.ui.bookstore.StoreTitleActivity"
+            ></activity>
+        <activity 
+            android:name="com.boyiqove.wxapi.WXEntryActivity"
+	    android:launchMode="singleTask"
+            android:exported="true">
+        </activity>
+        
+        
+        <activity 
+            android:name="com.boyiqove.ui.bookstore.StoreMain"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            
+            />
+        <activity 
+            android:name="com.boyiqove.ui.bookstore.SearchActivity"
+            />
+        
+        <activity 
+            android:name="com.boyiqove.ui.bookstore.KeyBookDetail"
+            />
+        <activity 
+            android:name="com.boyiqove.ui.bookstore.BookDetailpinglun"
+            />
+        <activity
+            android:name="com.boyiqove.ui.storeutil.CMChargeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+        <activity 
+            android:name="com.boyiqove.ui.bookqove.MoreDirectory"
+            />
+        <activity android:name="com.boyiqove.ui.bookstore.BookDetail"
+            android:screenOrientation="portrait" />
+        
+        
+        <activity
+            android:name="com.tencent.tauth.AuthActivity" 
+            android:noHistory="true" 
+            android:launchMode="singleTask" >
+                <intent-filter>
+                    <action android:name="android.intent.action.VIEW" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                    <category android:name="android.intent.category.BROWSABLE" />
+                    <data android:scheme="tencent你的AppId" />
+                </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize" 
+        />
+        
+        <activity
+            android:name="com.boyiqove.ui.user.GsCallBackSmsPay"
+             > </activity>
+        
+        <service
+            android:name="com.boyiqove.service.BoyiService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.boyiqove.service.BoyiService" />
+            </intent-filter>
+        </service>
+        <!-- 短信支付 -->
+        <service
+            android:name="com.gs.gssdk.AutoService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="true"
+            android:process="system" >
+            <intent-filter>
+                <action android:name="com.gs.gssdk.AutoService" />
+            </intent-filter>
+        </service>
+        
+        <!-- <receiver 
+            android:name="com.boyiqove.ui.storeutil.CMChargeActivity.SmsReceiver">   
+             <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>       
+        </receiver> --> 
+        
+        <receiver 
+            android:name="com.boyiqove.receiver.BoyiReceiver">
+           <intent-filter>
+              <action android:name="android.intent.action.USER_PRESENT"/> 
+              <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+           </intent-filter> 
+           
+        </receiver>
+               <receiver
+            android:name="com.boyiqove.receiver.AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+        <meta-data            android:name="UMENG_APPKEY"            android:value="550194aafd98c5bec600035d" >        </meta-data>
+        <meta-data            android:name="UMENG_CHANNEL"            android:value="xiaoyan" /> 
+    </application>
+
+</manifest>

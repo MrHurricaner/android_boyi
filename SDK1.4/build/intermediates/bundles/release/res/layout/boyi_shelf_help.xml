@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+    <LinearLayout 
+        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@color/boyi_black_touming"
+        >
+  
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        
+        >
+        
+        <ImageView 
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="9dip"
+            android:layout_height="23.5dp"
+            android:layout_width="23.5dp"
+            android:src="@drawable/boyi_finishpw"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"       
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:lineSpacingExtra="6dip"
+        android:text="@string/boyi_shelf_help_text"
+        android:textColor="@color/boyi_white"
+        
+        />
+      
+    </LinearLayout>
+</RelativeLayout>

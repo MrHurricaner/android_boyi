@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/read_progress_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/boyi_black_touming"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/read_chapter_up_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:gravity="center"
+            android:padding="4.0dip"
+            android:text="上一章"
+            android:textColor="@color/boyi_text_color_black_blue_selector"
+            android:textSize="@dimen/textsize_normal" />
+
+        <TextView
+            android:id="@+id/read_page_up_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="4.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="4.0dip"
+            android:text="-"
+            android:textColor="@color/boyi_text_color_black_blue_selector"
+            android:textSize="@dimen/textsize_normal" />
+
+        <TextView
+            android:id="@+id/read_page_progress_tv"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="3/18"
+            android:textColor="@color/boyi_white"
+            android:textSize="@dimen/textsize_small" />
+
+        <TextView
+            android:id="@+id/read_page_down_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="4.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="4.0dip"
+            android:text="+"
+            android:textColor="@color/boyi_text_color_black_blue_selector"
+            android:textSize="@dimen/textsize_normal" />
+
+        <TextView
+            android:id="@+id/read_chapter_down_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:gravity="center"
+            android:padding="4.0dip"
+            android:text="下一章"
+            android:textColor="@color/boyi_text_color_black_blue_selector"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <SeekBar
+            android:id="@+id/read_chapter_progress_seekBar"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_weight="1.0"
+            android:maxHeight="6.0dip"
+            android:minHeight="6.0dip"
+            android:paddingLeft="18.0dip"
+            android:paddingRight="18.0dip"
+            android:progressDrawable="@drawable/boyi_seekbar_progress"
+            android:thumb="@drawable/boyi_seekbar_image"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/read_progress_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:background="@color/boyi_text_back_white_to_blue_selector"
+            android:paddingBottom="4.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:paddingTop="4.0dip"
+            android:text="回退"
+            android:textColor="@color/boyi_text_black"
+            android:textSize="@dimen/textsize_normal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- <RelativeLayout
+        android:id="@+id/rl_tou"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/godetail2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="进入详情" />
+
+        <Button
+            android:id="@+id/goStore2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进入书cheng" />
+    </RelativeLayout> -->
+    <include 
+        android:id="@+id/main_top"
+        layout="@layout/xy_common_top_title"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/vp_frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rl_tou" >
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:id="@+id/content_bookname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="15.0dip"
+        android:textColor="@color/boyi_text_black"
+        android:textSize="@dimen/textsize_bigger" />
+
+    <TextView
+        android:id="@+id/content_author_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_bookname_tv"
+        android:layout_marginLeft="20.0dip"
+        android:text="aaaaaa"
+        android:textColor="@color/boyi_text_gray"
+        android:textSize="@dimen/textsize_small" />
+
+    <TextView
+        android:id="@+id/content_sort_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/content_bookname_tv"
+        android:layout_marginRight="10.0dip"
+        android:text="正序"
+        android:textColor="@color/boyi_text_black"
+        android:textSize="@dimen/textsize_small" />
+
+    <ListView
+        android:id="@+id/content_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content_author_tv"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="10.0dip" />
+
+    <Button
+        android:id="@+id/content_check_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="点击生成目录" />
+
+</RelativeLayout>

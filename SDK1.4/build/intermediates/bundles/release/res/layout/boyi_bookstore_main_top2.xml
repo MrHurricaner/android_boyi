@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+   <Button 
+       android:id="@+id/hahaha"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:text="调用web"
+       android:visibility="gone"
+       />
+    <com.boyiqove.view.MyWebView
+        android:id="@+id/web_addtop"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent" 
+        >
+        
+    </com.boyiqove.view.MyWebView>
+
+</LinearLayout>

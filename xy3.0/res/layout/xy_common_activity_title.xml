@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dip"
+    android:background="@color/boyi_main_top_bar"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="17dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"/>
+        <RelativeLayout
+            android:id="@+id/boyi_menu" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <RelativeLayout
+                android:id="@+id/menu" 
+                android:visibility="gone"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_alignParentRight="true"
+                >
+          <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="4.3dp"
+            android:layout_height="21dp"
+            android:src="@drawable/menu"/>
+            </RelativeLayout>
+           
+          
+          <TextView 
+              android:id="@+id/top_rl"
+              android:layout_toEndOf="@id/boyi_menu"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignLeft="@id/boyi_menu"
+	          android:layout_alignParentBottom="true"
+	          android:layout_marginRight="17dip"
+	          android:text="ni"
+	          android:visibility="invisible"
+              />
+          
+          
+        </RelativeLayout>
+
+       
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/title_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/left_activity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="书城"
+            android:textColor="@color/boyi_white"
+            android:textSize="18sp" 
+            />
+    </LinearLayout>
+
+</RelativeLayout>

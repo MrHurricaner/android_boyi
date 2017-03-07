@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    
+    
+    <string name="url_book_recommand">http://testsdk.boetech.cn/api/BoyiSdk/bookTuijianNums</string>
+    
+    <string name="url_book_buy_records">http://boyue.boetech.cn/api/order/purchaseRecords</string>
+    <string name="url_recharge_records">http://boyue.boetech.cn/api/order/topupRecords</string>
+    
+    <string name="url_bookstore_recommend">http://boyue.boetech.cn/index.php/Home/Index/index.html</string>
+    <string name="url_update_progress">http://boyue.boetech.cn/api/account/readProgress</string>
+    <string name="url_book_detail">http://boyue.boetech.cn/api/article/bookInfo</string>
+    <string name="url_book_update">http://boyue.boetech.cn/api/article/update</string>
+    
+    <!-- 公告 -->
+    <!-- <string name="url_notice">http://testsdk.boetech.cn/api/boyiSdk/notice</string> -->
+    <string name="url_notice">http://testsdk.boetech.cn/api/Notice/index</string>
+    
+    <string name="url_contents">http://boyue.boetech.cn/api/article/getChapters</string>
+    <string name="url_chapter">http://boyue.boetech.cn/api/article/chapterDetail</string>
+    <string name="url_xncontents">http://testsdk.boetech.cn/api/ReadBook/readBooklist/aid/</string>
+    <string name="url_xnchapter">http://testsdk.boetech.cn/api/ReadBook/readContent/aid/</string>
+    
+    <string name="url_login">http://boyue.boetech.cn/api/account/login</string>
+    <string name="url_account_modify">http://boyue.boetech.cn/api/account/modify</string>
+    
+    <!-- 
+    原注册接口
+    <string name="url_account_create">http://boyue.boetech.cn/api/account/create</string> -->
+    
+    <string name="url_phone_authcode">http://boyue.boetech.cn/api/account/sendAuthCode</string>
+    <string name="url_phone_bind">http://boyue.boetech.cn/api/account/checkAuthCode</string>
+    
+    <string name="url_password_modify">http://boyue.boetech.cn/api/account/updatePassword</string>
+    
+    <string name="url_update_payinfo">http://boyue.boetech.cn/api/update/init</string>
+    
+    <string name="url_update_userinfo">http://boyue.boetech.cn/api/update/userInfo</string>
+    <string name="url_user_regist">http://boyue.boetech.cn/api/user/registration</string>
+    
+    <string name="url_message_update">http://boyue.boetech.cn/api/message/receive</string>
+    <string name="url_message_delete">http://boyue.boetech.cn/api/message/del</string>
+    <string name="url_message_send">http://boyue.boetech.cn/api/message/send</string>
+    
+    <string name="url_user_attention">http://boyue.boetech.cn/api/user/attList</string>
+    <string name="url_attention_to">http://boyue.boetech.cn/api/user/attention</string>
+    <string name="url_attention_cancel">http://boyue.boetech.cn/api/user/unfollow</string>
+    
+    <string name="url_web_pay">http://boyue.boetech.cn/api/order/topup</string>
+    <string name="url_sms_pay">http://boyue.boetech.cn/api/order/getPrivateKey</string>
+    
+    <string name="url_suggestion_send">http://boyue.boetech.cn/api/user/opinion</string>
+    <string name="url_chapter_buy">http://boyue.boetech.cn/api/order/placed</string>
+    
+    <string name="url_user_fans">http://boyue.boetech.cn/api/user/fans</string>
+    <string name="url_fans_back">http://boyue.boetech.cn/api/user/pullBlack</string>
+    <string name="url_give_icon">http://boyue.boetech.cn/api/user/giveCoin</string>
+    <string name="url_fans_books">http://boyue.boetech.cn/api/user/fansBook</string>
+    
+    
+    <!--书架首推的url  -->
+    <!-- <string name="url_book_sync">http://192.168.1.253/ydapp/index.php/api/boyiSdk/bookTuijianNums</string>
+     -->
+     
+     <string name="url_eveyday_commented">http://testsdk.boetech.cn/api/BoyiSdk/bookTuijianNums</string>   
+   <!--  <string name="url_bookstore">http://testsdk.boetech.cn/index.php</string>  -->
+    <string name="url_bookstore">http://testsdk.boetech.cn/index/index</string>
+    <string name="url_bookstore_skip">http://testsdk.boetech.cn</string>
+    <!-- <string name="url_qovestore_bt2">http://testsdk.boetech.cn/index/boybook</string> -->
+    <string name="url_qovestore_bt2">http://testsdk.boetech.cn/book/newbooklist</string>
+    <!-- <string name="url_qovestore_bt3">http://testsdk.boetech.cn/index/girlbook</string> -->
+    <string name="url_qovestore_bt3">http://testsdk.boetech.cn/Category/index</string>
+    <!-- <string name="url_qovestore_bt4">http://testsdk.boetech.cn/index/publish</string> -->
+    <string name="url_qovestore_bt4">http://testsdk.boetech.cn/index/newbook</string>
+    
+    <!--用户中心的两个接口-->
+    <string name="url_usercenter_gift">http://testsdk.boetech.cn/user/gift</string>
+    <string name="url_usercenter_freeread">http://testsdk.boetech.cn/user/choiceness</string>
+    
+    <!-- 注册接口 -->
+    <string name="url_account_create">http://testsdk.boetech.cn/api/BoyiSdk/userRegister</string>
+     
+     <string name="url_book_sync">http://boyue.boetech.cn/api/article/syncBooks</string>
+   <!-- 推荐位统计接口 -->
+     <string name="url_book_placetongji">http://testsdk.boetech.cn/api/boyiSdk/placetongji</string>
+     
+     <string name="url_user_timelong">http://testsdk.boetech.cn/api/boyiSdk/loginOutLong</string>
+     <string name="url_read_book">http://testsdk.boetech.cn/api/BoyiSdk/readChapter</string>
+     <string name="url_read_buybook">http://testsdk.boetech.cn/api/boyiSdk/readVipChapter</string>
+     <string name="url_gostore_time">http://testsdk.boetech.cn/api/boyiSdk/loginLog</string>
+     <string name="url_goboesdk_entry">http://testsdk.boetech.cn/api/BoyiSdk/loginRukou</string>
+     
+
+     <string name="url_xn_maptable">http://testsdk.boetech.cn/api/Channel/mappingTable</string>
+
+     
+     <string name="url_book_conver">http://testsdk.boetech.cn/Uploads/</string>
+     <!--搜索-->
+     <!-- <string name="url_book_search">http://testsdk.boetech.cn/api/Search/search</string> -->
+     <string name="url_book_search">http://wap.cmread.com/r/p/SearchInterface.jsp</string>
+     
+     <!-- 本地测报错接口 -->
+     <string name="url_post_conver_error">http://testsdk.boetech.cn/api/Other/advice</string>
+
+     <!-- 书籍详情接口 -->
+     <!-- <string name="url_detail_book">http://192.168.1.253/ydapp/index.php/api/Book/bookinfo</string> -->
+     <string name="url_detail_book">http://testsdk.boetech.cn/api/Book/bookinfo</string>
+     <string name="url_detail_cm_book">http://wap.cmread.com/r/p/viewdata.jsp</string>
+     <string name="url_game_book">http://testsdk.boetech.cn/api/Game/gameList/p</string>
+     <string name="url_updata_book">http://testsdk.boetech.cn/api/Book/isUpdate</string>
+     <string name="url_book_direciory">http://testsdk.boetech.cn/api/Book/chapterList</string>
+     <!-- <string name="url_updata_book">http://testsdk.boetech.cn/api</string> -->
+     <!--搜索界面热搜推荐-->
+     <string name="url_search_recommend">http://testsdk.boetech.cn/api/Search/serchBook/qdid/baiyueshucheng/yysid/1/</string>
+     <!--搜索界面热词-->
+     <string name="url_search_hotkeyword">http://testsdk.boetech.cn/api/boyiSdk/keywords</string>
+    
+</resources>

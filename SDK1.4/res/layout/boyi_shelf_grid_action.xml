@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E9E8E6"
+        android:orientation="vertical" >
+        <!-- <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_marginLeft="11dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="每日精彩推荐"
+                android:layout_weight="1"
+                android:textColor="#5c5c5c"
+                android:textSize="18sp"
+                
+                />
+            <ImageView 
+                android:id="@+id/close_popupWindow"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:paddingRight="@dimen/image_paddingRight"
+                android:paddingTop="@dimen/image_paddingTop"
+                android:paddingBottom="@dimen/image_paddingBottom"
+                android:src="@drawable/boyi_gb"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout> -->
+			<View 
+                android:layout_height="1dp"
+                android:layout_width="match_parent"
+                android:background="@color/boyi_gray"
+                />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="11dp"
+            android:orientation="horizontal" >
+            
+            
+
+            <RelativeLayout
+                android:layout_width="90dip"
+                android:layout_height="120dip"
+                
+                >
+
+                <com.boyiqove.library.volley.toolbox.NetworkImageView
+                    android:id="@+id/cover_book"
+                    android:scaleType="fitXY"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="11dip"
+                 >
+
+                <TextView
+                    android:id="@+id/book_detail_words"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="3dip"
+                    android:text="推荐语"
+                    android:textColor="#565656"
+                    android:textSize="@dimen/textsize_normal" />
+
+                <TextView
+                    android:id="@+id/book_detail_Desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_marginTop="16dip"
+                    android:maxLines="3"
+                    android:text="简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介"
+                    android:ellipsize="end"
+                    android:textColor="#7F7F7F"
+                    android:lineSpacingExtra="3dp"
+                    android:textSize="@dimen/textsize_small" />
+
+               
+
+               
+            </LinearLayout>
+        </LinearLayout>
+        
+<View 
+                android:layout_height="0.5dip"
+                android:layout_width="match_parent"
+                android:background="@color/boyi_gray"
+                />
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/book_detail_lookgo"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.0"
+                android:background="@drawable/btn_white_to_blue_selector"
+                android:gravity="center"
+                android:text="详情"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/book_detail_delete"
+                android:layout_marginRight="8dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/btn_gray_selector"
+                android:gravity="center"
+                android:text="删除"
+                android:textColor="#464543"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

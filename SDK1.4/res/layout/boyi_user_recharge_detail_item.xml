@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="80dp"
+    android:layout_height="@dimen/pay_item_height"
+    android:background="@color/boyi_text_back_white_to_blue_selector" 
+    >
+    <LinearLayout 
+        android:id="@+id/ll_pay_item"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/boyi_text_back_white_to_blue_selector" 
+        >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="0.5dip"
+	    android:orientation="vertical" >
+
+				<RelativeLayout 
+				    android:layout_height="44dp"
+				    android:layout_width="match_parent"
+				    android:gravity="center_horizontal"
+				    android:id="@+id/relativeLayout1">
+
+				    <TextView
+				        android:id="@+id/pay_rmb_tv"
+				        android:layout_width="wrap_content"
+				        android:layout_height="match_parent"
+				        android:layout_alignParentBottom="true"
+				        android:gravity="center_vertical"
+				        android:text="5元"
+				        android:textColor="@color/boyi_dark_red"
+				        android:textSize="@dimen/textsize_normal" />
+					   
+				</RelativeLayout>
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.25dip"  
+	        android:background="@color/boyi_gray" 
+	        
+	        />
+	    
+					<RelativeLayout 
+				    android:layout_height="35dp"
+				    android:layout_width="match_parent"
+				    android:gravity="center_vertical|center_horizontal"
+				    >
+
+					    <TextView
+					        android:id="@+id/money_tv"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_below="@id/pay_rmb_tv"
+					        android:layout_centerHorizontal="true"
+					        android:text="  500金币"
+					        android:textColor="@color/boyi_text_gray"
+					        android:gravity="center_horizontal"
+					        android:textSize="14sp" />
+
+						</RelativeLayout >
+	</LinearLayout>
+	</LinearLayout>
+    <View
+        android:layout_width="0.5dip"
+        android:layout_height="match_parent"
+        android:background="@color/boyi_gray" />
+
+    <TextView
+        android:id="@+id/give_rmb_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@color/boyi_light_orange"
+        android:text="送1元"
+        android:textSize="9.6sp"
+        android:visibility="gone"
+        android:textColor="@color/boyi_white" />
+
+    
+
+    
+
+    <View
+        android:layout_width="0.25dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/boyi_gray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/boyi_gray" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_alignParentTop="true"
+        android:background="@color/boyi_gray" />
+
+</RelativeLayout>

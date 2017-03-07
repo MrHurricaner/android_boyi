@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.boyiqove.library.volley.toolbox.NetworkImageView
+        android:id="@+id/cover_niv"
+        android:layout_width="@dimen/shelf_cover_width"
+        android:layout_height="@dimen/shelf_cover_height"
+        android:layout_margin="5.0dip"
+        android:contentDescription="粉丝喜欢的书籍" />
+
+    <ImageView
+        android:id="@+id/status_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/cover_niv"/>
+
+    <com.boyiqove.view.MarqueeTextView
+        android:id="@+id/bookname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_toRightOf="@id/cover_niv"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="书名"
+        android:textColor="@color/boyi_text_black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/author_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookname_tv"
+        android:layout_marginTop="3.0dip"
+        android:layout_toRightOf="@id/cover_niv"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="作者：我的小绵羊"
+        android:textColor="@color/boyi_text_gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/chapter_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author_tv"
+        android:layout_marginTop="3.0dip"
+        android:layout_toRightOf="@id/cover_niv"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="章节数:500"
+        android:textColor="@color/boyi_text_gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/words_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chapter_tv"
+        android:layout_marginTop="3.0dip"
+        android:layout_toRightOf="@id/cover_niv"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="字数:500"
+        android:textColor="@color/boyi_text_gray"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/click_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/words_tv"
+        android:layout_marginTop="3.0dip"
+        android:layout_toRightOf="@id/cover_niv"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="点击量:500"
+        android:textColor="@color/boyi_text_gray"
+        android:textSize="14sp" />
+
+</RelativeLayout>

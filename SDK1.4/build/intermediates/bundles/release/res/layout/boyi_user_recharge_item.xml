@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pay_layout"
+    android:layout_width="82dp"
+    android:layout_height="@dimen/pay_item_height"
+    android:background="@color/boyi_text_back_white_to_blue_selector" >
+    
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+				<RelativeLayout 
+				    android:layout_height="45dp"
+				    android:layout_width="match_parent"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:id="@+id/relativeLayout1">
+				    <TextView 
+				        android:id="@+id/tv_pay_money"
+				        android:layout_height="wrap_content"
+				        android:layout_width="wrap_content"
+				        android:textSize="@dimen/textsize_small"
+				        />
+					    <ImageView 
+					        android:id="@+id/pay_logo"
+					        android:layout_height="wrap_content"
+					        android:layout_width="wrap_content"
+					         
+					        />
+				</RelativeLayout>
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.35dip"  
+	        android:background="@color/boyi_gray" />
+					<RelativeLayout 
+				    android:layout_height="35dp"
+				    android:layout_width="match_parent"
+				    android:gravity="center_vertical|center_horizontal"
+				    >
+					    <TextView
+					        android:id="@+id/pay_name_tv"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_gravity="center_vertical|center_horizontal"
+					        android:text="支付宝"
+					        android:textSize="14.5sp" />
+						</RelativeLayout >
+	</LinearLayout>
+	<View
+        android:layout_width="0.25dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/boyi_gray" />
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dip"
+        android:layout_alignParentTop="true"
+        android:background="@color/boyi_gray" />
+	<View
+        android:layout_width="0.25dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="@color/boyi_gray" />
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="0.25dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/boyi_gray" />
+</RelativeLayout>

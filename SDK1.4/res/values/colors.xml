@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="boyi_white">#ffffffff</color>
+    <color name="boyi_white1">#F7F7F7</color>
+    <color name="boyi_white_color_disable">#7fffffff</color>
+    <color name="boyi_white_translucence">#e5ffffff</color>
+    <color name="boyi_activity_bg">#ffecebe9</color>
+    <color name="boyi_main_center_bar">#ffc7dce5</color>
+    <color name="boyi_translucence">#b0000000</color>
+    
+    <color name="boyi_black">#ff505050</color>
+    <color name="boyi_dark_black">#ffa4a4a4</color>
+    <color name="boyi_light_blue">#ffca4e2f</color>
+    <color name="boyi_dark_blue">#ff0099CC</color>
+    <color name="boyi_green_tiao">#00be8e</color>
+    
+    
+    <color name="boyi_dark_red">#ffD65231</color>
+    
+    <color name="boyi_splash_back">#ff10c4ff</color>
+    
+    <color name="boyi_light_orange">#ffff8c69</color>
+    
+    <color name="boyi_dark_gray">#ffDBDBDB</color>
+    <color name="boyi_progress_gray">#ffeaeceb</color>
+    <color name="boyi_dark_alpa">#ff33322d</color>
+    <color name="boyi_gray">#ffD8D8D8</color>
+    <color name="boyi_light_gray">#88E6E6E6</color> 
+    
+    <color name="boyi_light_red">#fff14e4e</color>
+    
+    <color name="boyi_text_light_gray">#ffceefff</color>
+    <color name="boyi_text_gray">#ff838383</color>
+    <color name="boyi_text_black">#ff505050</color>
+    <color name="boyi_text_light">#ffd7d7d7</color>
+    
+    <color name="boyi_text_about">#ff646464</color>
+    
+    
+    <color name="boyi_read_text_sheep">#ff505050</color>
+    <color name="boyi_read_text_sheep2">#ff3c3c3c</color>
+    <color name="boyi_read_title_sheep">#ff323232</color>
+    <color name="boyi_read_extra_sheep">#ff818181</color>
+    <color name="read_chapter_sheep">#ff323232</color>
+    
+    <color name="boyi_read_text_ink">#ff505050</color>
+    <color name="boyi_read_title_ink">#ff323232</color>
+    <color name="boyi_read_extra_ink">#ff818181</color>
+    <color name="boyi_read_chapter_ink">#ff323232</color>
+    
+    <color name="boyi_read_text_girl">#ff820057</color>
+    <color name="boyi_read_text_girl2">#ffaeaba6</color>
+    <color name="boyi_read_title_girl">#ff640043</color>
+    
+    <color name="boyi_read_extra_girl">#ffb1729c</color>
+    <color name="boyi_read_chapter_girl">#ff640043</color>
+    <color name="boyi_read_chapter_girl2">#ff998d80</color>
+    
+    <color name="boyi_read_text_boy">#ff8c8eb1</color>
+    <color name="boyi_read_text_boy2">#ff626e77</color>
+    <color name="boyi_read_title_boy">#ffc6c7e3</color>
+    <color name="boyi_read_extra_boy">#ff707286</color>
+    <color name="boyi_read_chapter_boy">#ffc6c7e3</color>
+    <color name="boyi_read_chapter_boy2">#ff626e77</color>
+    
+    <color name="boyi_read_text_night">#ff646464</color>
+    <color name="boyi_read_title_night">#ff787878</color>
+    <color name="boyi_read_extra_night">#ff505050</color>
+    <color name="boyi_read_chapter_night">#ff787878</color>
+    <color name="boyi_reader_backgorund">#CA4E2F</color>
+    <color name="boyi_transparent">#00000000</color>
+    <color name="boyi_main_background">#b0000000</color>
+    <!--黑色透明-->
+    <color name="boyi_progress_bar">#A7A5A2</color>
+    <color name="boyi_progress_bar_jindu">#EBEBCD</color>
+    
+	<color name="boyi_main_top_bar">#00be8e</color>
+	<color name="boyi_textview_grad">#717171</color>
+	<color name="boyi_search_biaoqian_blue">#ff00b5ff</color>
+	<color name="boyi_search_biaoqian_red">#ff0078</color>
+	<!-- 灰色字体 -->
+	<color name="boyi_text_grey">#909090</color>
+	
+	<!-- 黑色半透明弹窗 -->
+	<color name="boyi_black_touming">#cc000000</color>
+	<!-- 黑色半透明弹窗 -->
+	<color name="boyi_black_touming3">#f91a1a1a</color>
+	<!-- 透明弹窗 -->
+	<color name="boyi_black_touming2">#99000000</color>
+	<!-- 底部导航选中 -->
+	<color name="boyi_bottom_bg_yes">#dddddd</color>
+	<!-- 全部目录 -->
+	<color name="boyi_directory_all_yes">#cfcfcf</color>
+	
+	<color name="boyi_textview_green_color">#00be8e</color>
+	<color name="boyi_textview_gray_color">#7e7e7e</color>
+	
+	<color name="boyi_discount_bg">#e9e9e6</color>
+	
+	<color name="boyi_reader_gray">#ECEBE9</color>
+	<color name="boyi_reader_page_title">#993333</color>
+	<color name="btn_hong">#F37A79</color>
+
+	<color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+	<color name="search_pressed">#e5f4f0</color>
+	<!--热词TextView推荐颜色-->
+	<color name="pink">#E9A7C3</color>
+	<color name="red">#DD6060</color>
+	<color name="yellow">#EEC178</color>
+	<color name="blue">#9BD3D2</color>
+	<color name="zhi">#B9AFEE</color>
+    
+</resources>
